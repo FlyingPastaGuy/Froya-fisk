@@ -38,7 +38,7 @@ const routes = [
     },
     {
         path: '/Oppskrifter',
-        name: 'oppskrifter',
+        name: 'Oppskrifter',
         component: RecipesNorView
     },
 
