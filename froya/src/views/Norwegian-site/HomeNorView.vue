@@ -1,5 +1,5 @@
 <template>
-    <h1>hjemme side</h1>
+
     <nor-navbar></nor-navbar>
 </template>
 
@@ -16,3 +16,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+body{
+    background-color: #151517;
+}
+</style>
