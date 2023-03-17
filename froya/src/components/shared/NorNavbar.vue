@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid ms-5">
         <router-link to="/" class="Links">
                             <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">

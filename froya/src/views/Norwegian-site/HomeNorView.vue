@@ -2,41 +2,64 @@
     <nor-navbar></nor-navbar>
     <section></section>
     <section class="container">
-        <div class="text-center">
-            <h2> Om Frøya</h2>
-            <p></p>
-            <input class="btn btn-outline-light" type="button" value="Les mer">
+        <h3>Frøya sin laks er ikke populær hos sushi-kokkene uten grunn </h3>
+        <div class="row">
+            <div class="col">
+                
+            </div>
+            <div class="col">
+                <h5>PAKKET I LØPETAV TO TIMER</h5>
+                <p>Fra laksen er sprell levende til den er pakket og klar for rask nedkjøling
+                    går det normalt kun to timer. Slik er du garantert laks av den fineste kvaliteten og med
+                    den beste smaken når du velger Frøya laks
+                </p>
+            </div>
         </div>
-    </section>
-    <section class="container">
-        <div class="text-center">
-            <h2>Våre produkter</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi neque modi odit. Quo ullam eum natus beatae! Suscipit omnis perferendis quidem, accusamus atque facilis enim neque esse amet dolorem vero vel aspernatur!</p>
-            <img src="" alt="" srcset="">
-            <input class="btn btn-outline-light" type="button" value="se næringsinnhold">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <h5>BACK LOIN ELLERMID LOIN</h5>
+                <p>
+                    Sushi elskerens førstevalg er det
+                    delikate ryggstykket «back-loin».
+                    Du får flotte, ensartede og faste skiver fisk. 
+                    Midtstykket er litt fetere og saftigere. Dette 
+                    setter en ekstra god smak og gir en fin, delikat 
+                    munnfølelse når du tilbereder fisken på grillen.
+                </p>
+            </div>
         </div>
-        
-    </section>
-    <section class="container">
-        <div class="text-center">
-            <p>FRØYA LAKS FÅR DU TAK I HOS:</p>
-        </div>
-    </section>
-    <section class="container">
-        <div class="text-center">
-            <h2>Oppskrifter</h2>
-            <p>Se våre fristende oppskrifter og bli inspirert</p>
-            <div>
-
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <h5>FRA FRØYA PÅTRØNDELAGSKYSTEN</h5>
+                <p>
+                    Det er ingen hemmelighet at omgivelsene er viktige. 
+                    Havmiljøet rundt øya Frøya danner et ideelt grunnlag 
+                    for marint mangfold og er blant de ypperste i verden.
+                    Tidevann og sterke strømmer fører kontinuerlig inn rent,
+                    næringsrikt sjøvann.
+                </p>
             </div>
         </div>
     </section>
+    <our-products-nor></our-products-nor>
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+  </div>
+</div>
     <nor-footer></nor-footer>
 </template>
 
 <script>
 import NorNavbar from '../../components/shared/NorNavbar.vue';
 import NorFooter from '@/components/shared/NorFooter.vue';
+import OurProductsNor from '@/components/OurProductsNor.vue';
 
 export default {
     setup() {
@@ -45,6 +68,7 @@ export default {
     components: {
         NorNavbar,
         NorFooter,
+        OurProductsNor,
     }
 }
 </script>
