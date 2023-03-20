@@ -32,21 +32,30 @@
             </div>  
     </div>
 </nav>
-    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <button @click="canvasOn= true" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+    </button>
+<div class="offcanvas offcanvas-end" :class="{show: canvasOn, '':canvasOff}" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button type="button" @click="canvasOn= false" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
     Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
   </div>
 </div>
+
 </template>
 
 <script>
+import { ref } from 'vue'
 export default {
     setup() {
         
+        const canvasOn = ref(false)
+        return{
+            canvasOn,
+        }
     },
 }
 </script>
@@ -54,5 +63,11 @@ export default {
 <style scoped>
 .Links{
     text-decoration:none
+}
+</style>
+
+<style scoped>
+i{
+    color: white;
 }
 </style>
