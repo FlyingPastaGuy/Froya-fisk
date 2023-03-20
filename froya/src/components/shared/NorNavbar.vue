@@ -35,7 +35,7 @@
     <button @click="canvasOn= true" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
     </button>
-<div class="offcanvas offcanvas-end" :class="{show: canvasOn,}" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+<div class="offcanvas offcanvas-end" :class="{show: canvasOn}" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
     <button type="button" @click="canvasOn= false" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
