@@ -48,9 +48,9 @@
 </template>
 
 <script>
-import NorNavbar from '../../components/shared/NorNavbar.vue';
+import NorNavbar from '@/components/shared/NorNavbar.vue';
 import NorFooter from '@/components/shared/NorFooter.vue';
-import OurProductsNor from '@/components/OurProductsNor.vue';
+import OurProductsNor from '@/components/Norwegian-site/HomePage/OurProductsNor.vue';
 
 export default {
     setup() {
