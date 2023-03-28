@@ -1,5 +1,6 @@
 <template>
 <nor-navbar></nor-navbar>
+<div>
     <article class="container py-2">
         <h2>Oppskrifter med Frøya Laks</h2>
         <p class="text-wrap" style="width: 30rem;">
@@ -7,8 +8,9 @@
             hverdagsmiddager og festlige anledninger. Om sommeren er den
             perfekt på grillen.
         </p>
-        <div class="row"></div>
+        <recipes-nor-list></recipes-nor-list>
     </article>
+</div>
 <nor-footer></nor-footer>
 </template>
 
@@ -16,6 +18,7 @@
 <script>
 import NorNavbar from '@/components/shared/NorNavbar.vue';
 import NorFooter from '@/components/shared/NorFooter.vue';
+import RecipesNorList from '@/components/Norwegian-site/RecipesPage/RecipesNorList.vue';
 export default {
     setup() {
         
@@ -23,17 +26,21 @@ export default {
     components: 
     { 
         NorNavbar, 
-        NorFooter 
+        NorFooter,
+        RecipesNorList,
     }
 }
 </script>
 
 <style scoped>
-article{
+article,div{
     background-color: white;
-    border-radius: 1rem;
 }
 h1,h2,h3,h4,h5,p{
     color:black;
+}
+
+.navbar{
+    background-color: #151517;
 }
 </style>
