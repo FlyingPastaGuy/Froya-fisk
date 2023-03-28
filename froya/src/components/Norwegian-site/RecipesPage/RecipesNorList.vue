@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <recipes-nor-item v-for="(recipesNor,i) in RecipesNor" :key="i"
+        <recipe-nor-item v-for="(recipesNor,i) in RecipesNor" :key="i"
         
         :RecipeImage ="recipesNor.recipeImage"
         :RecipeName ="recipesNor.recipeName"
@@ -8,12 +8,12 @@
         :RecipeLink ="recipesNor.recipeLink"
         
         
-        ></recipes-nor-item>
+        ></recipe-nor-item>
     </div>
 </template>
 
 <script>
-import RecipesNorItem from './RecipesNoritem.vue';
+import RecipeNorItem from './RecipeNorItem.vue';
 import RecipesNorService from '@/service/recipesNorService.js'
 export default {
     setup() {
@@ -24,7 +24,7 @@ export default {
         }
     },
     components: {
-        RecipesNorItem,
+        RecipeNorItem,
     }
 }
 </script>
