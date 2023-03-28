@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import RecipesNorItem from './RecipesNorItem.vue';
+import RecipesNorItem from './RecipesNoritem.vue';
 import RecipesNorService from '@/service/recipesNorService.js'
 export default {
     setup() {
