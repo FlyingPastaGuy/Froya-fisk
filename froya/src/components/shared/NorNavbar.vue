@@ -1,18 +1,23 @@
 <template>
-<nav class="navbar navbar-expand-lg sticky-top p-0 my-4">
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong sticky-top p-0 my-4">
     <div class="container-fluid">
-        <router-link to="/" class="Links">
+        <router-link to="/" class="Links logo">
             <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
         </router-link>
         <button @click="canvasOn= true" class="btn" type="button">
-            <i class="bi bi-list"></i>
-        </button>        
+            <h2 class="MenyBtn">Meny</h2>
+        </button>    
+        <router-link to="/Produkter" class="Links handlevogn">
+            <img src="../../assets/Images/Vector.png" alt="" srcset=""> 
+        </router-link>
+        
     </div>
 </nav>
 
 
+
 <div class="offcanvas offcanvas-top" :class="{show: canvasOn }" tabindex="-1" id="offcanvas">
-    <div class="offcanvas-header align-self-end">
+    <div class="offcanvas-header align-self-end me-5 mt-4">
         <button type="button" @click="canvasOn= false" class="btn-close btn-close-white" ></button>
     </div>
     <div class="offcanvas-body align-self-center">
@@ -20,23 +25,23 @@
             <div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link to="/Om-oss" class="Links">
-                            <p class="nav-link text-light">Om-oss</p>
+                        <router-link to="/Om-oss" class="Links ">
+                            <p class="nav-link text-light mt-5">Om-oss</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/Produkter" class="Links">
-                            <p class="nav-link text-light">Produkter</p>
+                            <p class="nav-link text-light mt-5">Produkter</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/Oppskrifter" class="Links">
-                            <p class="nav-link text-light">Oppskrifter</p>
+                            <p class="nav-link text-light mt-5">Oppskrifter</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/Kontakt-oss" class="Links">
-                            <p class="nav-link text-light">Kontakt oss</p>
+                            <p class="nav-link text-light mt-5">Kontakt oss</p>
                         </router-link>  
                     </li>
                 </ul>
@@ -61,19 +66,41 @@ export default {
 </script>
 
 <style scoped>
+
+
 .Links{
     text-decoration:none;
+    position: relative;
 }
-i{
+
+.MenyBtn{
     color: white;
     font-size: 2rem;
 }
+.btn{
+    position: fixed;
+    top: 1%;
+    left: 89%;
+
+}
+.logo{
+    position: fixed;
+    top: 2%;
+    right: 85%;
+}
+.handlevogn{
+    position: fixed;
+    top: 2.5%;
+    left: 95%;
+}
+
 .offcanvas{
-    background-color: #151517;
+    background-color: #090909;;
+    height: 100%;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 </style>

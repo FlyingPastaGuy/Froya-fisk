@@ -1,93 +1,100 @@
 <template>
-    <section class="contain">
-        <div class="container">
-            <h2>VÅRE PRODUKTER</h2>
-            <p>
-                Det er ingen hemmelighet at omgivelsene er viktige. Havmiljøet rundt øya Frøya
-                danner et <br> ideelt grunnlag for marint mangfold og er blant de ypperste i verden.
-            </p>
-            <section class="row justify-content-center">
-                <article class="col-3 p-3">
-                    <div class="card">
-                        <img src="" alt="" srcset="">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <h5 class="card-title">FRØYA</h5>
+    <section class="container text-center my-3">
+        <div class="row mx-auto my-auto">
+            <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item py-5 active">
+                        <div class="row">
+                            <article class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card 1</h4>
+                                        <p class="card-text">Some make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
                                 </div>
-                                <div class="col">
-                                    <p class="card-text">back loin</p>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card 1</h4>
+                                        <p class="card-text">Some make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
                                 </div>
-                            </div>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card 1</h4>
+                                        <p class="card-text">Some make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </article>
-                <article class="col-3 p-3">
-                    <div class="card">
-                        <img src="" alt="" srcset="">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <h5 class="card-title">FRØYA</h5>
+                    <div class="carousel-item py-5">
+                        <div class="row">
+                            <article class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card</h4>
+                                        <p class="card-text">Some make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
                                 </div>
-                                <div class="col">
-                                    <p class="card-text">back loin</p>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card</h4>
+                                        <p class="card-text">Some make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
                                 </div>
-                            </div>
+                            </article>
+                            <article class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Card</h4>
+                                        <p class="card-text">Some make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </article>
-                <article class="col-3 p-3">
-                    <div class="card">
-                        <img src="" alt="" srcset="">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <h5 class="card-title">FRØYA</h5>
-                                </div>
-                                <div class="col">
-                                    <p class="card-text">back loin</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3">
+                </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
+                    <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3">
     </section>
 </template>
 
 
-<style scoped>
-.contain{
-    background-color: white;
-    border-radius: 1rem;
-}
-h1,p,h2,h5{
-    color: black;
-}
+    <script>
+    
+    </script>
+    
+    
+    <style scoped>
+    
+    </style>
 
-.card{
-    width: 15rem;
-}
-.btn{
-    color: black;
-    border-color: black;
-    background-color: white;
-}
-.btn:hover{
-    color: white;
-    border-color: white;
-    background-color: black;
-}
 
-.card-body{
-    background-color:#232323;
-}
-
-.card-title,.card-text{
-    color: white;
-}
-
-</style>

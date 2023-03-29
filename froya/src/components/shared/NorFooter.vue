@@ -91,8 +91,9 @@
                                     </router-link>
                                 </li>
                             </ul>
-
-                            <h5>Sosiale medier</h5>
+                </div>
+                <div class="col">
+                    <h5>Sosiale medier</h5>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-2">
