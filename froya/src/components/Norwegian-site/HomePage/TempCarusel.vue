@@ -83,14 +83,10 @@
     </section>
 
     <section>
-        <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3">
+        <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3" style="border-radius: 0%;">
     </section>
 </template>
 
-
-    <script>
-    
-    </script>
     
     
     <style scoped>

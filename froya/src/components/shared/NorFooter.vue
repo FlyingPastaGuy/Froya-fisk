@@ -1,12 +1,12 @@
 <template>
     <section class="container mt-5">
         <article class="mb-5">
-            <div class="text-center">
+            <div class="text-align-self-start">
                 <h4>Motta Nyhetsbrev?</h4>
                 <p>vær den første til å motta nye oppskrifter og andre oppdateringer</p>
-                <div class="input-group center">
-                    <input type="email" class="form-control" placeholder="Email Address">
-                    <input type="button" value="Sign Up" class="btn btn-outline-secondary">
+                <div class="input-group ">
+                    <input type="email" placeholder="Email Address" class="form-control align-self-start" style="border-radius: 0%; width: 10rem;">
+                    <input type="button" value="Sign Up" class="btn btn-outline-secondary ms-3" style="border-radius: 0%;">
                 </div>
             </div>
             <hr class="my-5" style="color:#D1D1D1;">
@@ -94,19 +94,17 @@
                 </div>
                 <div class="col">
                     <h5>Sosiale medier</h5>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-2">
-                                        <i class="bi bi-instagram fs-4 "></i>
-                                    </div>
-                                    <div class="col-2">
-                                        <i class="bi bi-facebook fs-4 "></i>
-                                    </div>
-                                    <div class="col-2">
-                                        <i class="bi bi-youtube fs-4 "></i>
-                                    </div>
-                                </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="bi bi-instagram fs-4 "></i>
                             </div>
+                            <div class="col-2">
+                                <i class="bi bi-facebook fs-4 "></i>
+                            </div>
+                            <div class="col-2">
+                                <i class="bi bi-youtube fs-4 "></i>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div class="row justify-content-evenly">
@@ -151,15 +149,3 @@ a,i{
 }
 </style>
 
-
-/*
-
-
-
-
-
-
-
-
-
- */

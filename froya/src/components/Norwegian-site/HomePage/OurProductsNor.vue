@@ -26,7 +26,7 @@
                             <article class="col-sm-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Card 1</h4>
+                                        <h4 class="card-title text-primary">Card 1</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Button</a>
                                     </div>
@@ -48,7 +48,7 @@
                             <article class="col-sm-4">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Card</h4>
+                                        <h4 class="card-title text-primary">Card</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Button</a>
                                     </div>
@@ -83,14 +83,11 @@
     </section>
 
     <section>
-    <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3">
+        <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3">
     </section>
 </template>
 
 
-    <script>
-    
-    </script>
     
     
     <style scoped>
