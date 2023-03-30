@@ -7,6 +7,11 @@ import AboutUsNorView from '../views/Norwegian-site/AboutUsNorView.vue';
 import ProductsNorView from '../views/Norwegian-site/ProductsNorView.vue';
 import RecipesNorView from '../views/Norwegian-site/RecipesNorView';
 
+//Norwagian Recipes
+import GinMarinatedSalmonNor from '@/components/Norwegian-site/RecipesPage/Recipes/GinMarinatedSalmonNor.vue';
+import SalmonWithGarlicAndParmesanCrustNor from '@/components/Norwegian-site/RecipesPage/Recipes/SalmonWithGarlicAndParmesanCrustNor.vue';
+import SalmonAndChampagneBeurreBlancNor from '@/components/Norwegian-site/RecipesPage/Recipes/SalmonAndChampagneBeurreBlancNor.vue';
+
 //English views/pages
 import HomeEngView from '../views/English-site/HomeEngView.vue';
 import AboutUsEngView from '../views/English-site/AboutUsEngView.vue';
@@ -40,6 +45,22 @@ const routes = [
         path: '/Oppskrifter',
         name: 'Oppskrifter',
         component: RecipesNorView
+    },
+    ///Norwagian Recipes
+    {
+        path:'/GinMarinatedSalmonNor',
+        name:'GinMarinatedSalmonNor',
+        component: GinMarinatedSalmonNor
+    },
+    {
+        path:'/SalmonWithGarlicAndParmesanCrustNor',
+        name:'SalmonWithGarlicAndParmesanCrustNor',
+        component: SalmonWithGarlicAndParmesanCrustNor
+    },
+    {
+        path:'/SalmonAndChampagneBeurreBlancNor',
+        name:'SalmonAndChampagneBeurreBlancNor',
+        component: SalmonAndChampagneBeurreBlancNor
     },
 
 

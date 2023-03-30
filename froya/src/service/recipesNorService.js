@@ -6,19 +6,19 @@ const recipesNorService = (function(){
         recipeImage: "",
         recipeName: "fisk",
         recipeDescription: "mer info",
-        recipeLink: "Kontakt-oss",
+        recipeLink: "GinMarinatedSalmonNor",
         },
         {
             recipeImage: "",
             recipeName: "fisk",
             recipeDescription: "mer info",
-            recipeLink: "Kontakt-oss",
+            recipeLink: "SalmonWithGarlicAndParmesanCrustNor",
         },
         {
             recipeImage: "",
             recipeName: "fisk",
             recipeDescription: "mer info",
-            recipeLink: "Kontakt-oss",
+            recipeLink: "SalmonAndChampagneBeurreBlancNor",
         },
         {
             recipeImage: "",
