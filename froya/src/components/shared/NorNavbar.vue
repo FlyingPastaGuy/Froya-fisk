@@ -18,15 +18,14 @@
 
 <div class="offcanvas offcanvas-top" :class="{show: canvasOn }" tabindex="-1" id="offcanvas">
     <div class="offcanvas-header align-self-end me-5 mt-4">
-        <button type="button" @click="canvasOn= false" class="btn-close btn-close-white" ></button>
+        <button type="button" @click="canvasOn= false" class="btn-close btn-close-white"></button>
     </div>
     <div class="offcanvas-body align-self-center">
-        <div class="back container-fluid justify-content-center">
-            <div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+        <div class="back container-fluid justify-content-md-center">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
                         <router-link to="/Om-oss" class="Links ">
-                            <p class="nav-link text-light mt-5">Om-oss</p>
+                            <p class="nav-link text-light mt-5 ">Om-oss</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
@@ -45,7 +44,6 @@
                         </router-link>  
                     </li>
                 </ul>
-            </div>  
         </div>
     </div>
 </div>

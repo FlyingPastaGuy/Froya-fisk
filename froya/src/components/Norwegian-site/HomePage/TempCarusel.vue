@@ -6,7 +6,7 @@
                     <div class="carousel-item py-5 active">
                         <div class="row">
                             <article class="col-sm-4">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <h4 class="card-title">Card 1</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
@@ -15,7 +15,7 @@
                                 </div>
                             </article>
                             <article class="col-sm-4">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <h4 class="card-title">Card 1</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
@@ -24,7 +24,7 @@
                                 </div>
                             </article>
                             <article class="col-sm-4">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <h4 class="card-title">Card 1</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
@@ -37,7 +37,7 @@
                     <div class="carousel-item py-5">
                         <div class="row">
                             <article class="col-sm-4">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <h4 class="card-title">Card</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
@@ -46,7 +46,7 @@
                                 </div>
                             </article>
                             <article class="col-sm-4">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <h4 class="card-title">Card</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>
@@ -55,7 +55,7 @@
                                 </div>
                             </article>
                             <article class="col-sm-4">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body">
                                         <h4 class="card-title">Card</h4>
                                         <p class="card-text">Some make up the bulk of the card's content.</p>

@@ -8,7 +8,7 @@
     
         <div class="row">
             <article class="col-4 mb-4">
-                <div class="card bg-transparent">
+                <div class="card bg-transparent border-0">
                     <div class="card-body">
                         <h1 class="card-title">Fersk norsk laks</h1>
                         <p class="card-text">Fra kalde og klare farvann langs kysten på Frøya.</p>
@@ -25,7 +25,7 @@
         <h3 style="width: 42rem;">Frøya sin laks er ikke populær hos sushi-kokkene uten grunn</h3>
 <div class="row">
     <article class="col-4 mb-4">
-        <div class="card bg-transparent">
+        <div class="card bg-transparent border-0">
             <img src="../../assets/Images/2hours.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
             <div class="card-body">
                 <h3 class="card-title">PAKKET I LØPETAV TO TIMER</h3>
@@ -39,8 +39,8 @@
         </div>
     </article>
 
-    <article class="col-4 mb-4">
-        <div class="card bg-transparent">
+    <article class="col-4 mb-4" >
+        <div class="card bg-transparent border-0">
             <img src="../../assets/Images/Loins.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
             <div class="card-body">
                 <h3 class="card-title">BACK LOIN ELLERMID LOIN</h3>
@@ -52,14 +52,12 @@
                     munnfølelse når du tilbereder fisken på grillen.</p>
             </div>
 
-            <router-link to="">
-                    <input type="button" value="Les mer om Frøya" class="btn btn-outline-light" style="border-radius: 0%;">
-            </router-link> 
+
         </div>
     </article>
 
     <article class="col-4 mb-4">
-        <div class="card bg-transparent">
+        <div class="card bg-transparent border-0">
             <img src="../../assets/Images/gradernord.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
             <div class="card-body">
                 <h3 class="card-title">FRA FRØYA PÅTRØNDELAGSKYSTEN</h3>
@@ -128,10 +126,10 @@
     <section class="container">
     <div class="row">
         <article class="col-4 mb-4">
-            <div class="card" style="background-color: #151517;">
+            <div class="card border-0" style="background-color: #151517;">
                 <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
-                    <p class="card-text text-primary text-wrap" style="width: 12rem;">Ginmarinert Frøya laks Marinert laks med agurk, gin og rips</p>
+                    <p class="card-text text-dark text-wrap" style="width: 12rem;">Ginmarinert Frøya laks Marinert laks med agurk, gin og rips</p>
                     <router-link to="">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
@@ -140,10 +138,10 @@
         </article>
 
         <article class="col-4 mb-4">
-            <div class="card" style="background-color: #151517;">
+            <div class="card border-0" style="background-color: #151517;">
                 <img src="@/assets/Images/Froya-til-fest-hovedrett-med-rodbete-marinert-laks.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
-                    <p class="card-text text-primary text-wrap" style="width: 12rem;">Ovnsbakt laks med urter & hvitløks-crust, grønn potetmos & urteolje</p>
+                    <p class="card-text text-dark text-wrap" style="width: 12rem;">Ovnsbakt laks med urter & hvitløks-crust, grønn potetmos & urteolje</p>
                     <router-link to="">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
@@ -152,10 +150,10 @@
         </article>
 
         <article class="col-4 mb-4">
-            <div class="card" style="background-color: #151517;">
+            <div class="card border-0" style="background-color: #151517;">
                 <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
-                    <p class="card-text text-primary text-wrap" style="width: 15rem;">Pannestekt laks med champagne beurre blanc, aspargesbønner og Hasselbäck poteter</p>
+                    <p class="card-text text-dark text-wrap" style="width: 15rem;">Pannestekt laks med champagne beurre blanc, aspargesbønner og Hasselbäck poteter</p>
                     <router-link to="">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
