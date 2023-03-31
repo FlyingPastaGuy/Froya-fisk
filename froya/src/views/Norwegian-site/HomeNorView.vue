@@ -1,11 +1,11 @@
 <template>
+<nor-navbar></nor-navbar>
+    
     <section class="container">
         <section class="sectionImg"> 
             <img src="../../assets/Images/grid_0.png" class="headerImg" alt="">
         </section>
-    <nor-navbar></nor-navbar>
-    
-    
+        
         <div class="row">
             <article class="col-4 mb-4">
                 <div class="card bg-transparent border-0">
@@ -194,6 +194,7 @@ html, body{
     padding: 0;
     max-width: 1400px;
 }
+/* 
 .sectionImg{
     position: relative;
 }
@@ -203,7 +204,7 @@ html, body{
     max-width: 100rem;
     height: auto;
     
-}
+}*/
 
 
 </style>

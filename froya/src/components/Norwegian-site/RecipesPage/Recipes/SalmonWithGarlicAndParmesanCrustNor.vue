@@ -1,5 +1,5 @@
 <template>
-<nor-navbar></nor-navbar>
+<main-nor-navbar></main-nor-navbar>
 <div class="bg-white">
     <article class="container py-5 my-5">
         <h2 class="text-black">Frøya laks med hvitløk & permesan-crust</h2>
@@ -154,14 +154,14 @@
 
 <script>
 import NorFooter from '@/components/shared/NorFooter.vue'
-import NorNavbar from '@/components/shared/NorNavbar.vue'
+import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
 
 export default {
     setup() {
         
     },components: {
         NorFooter,
-        NorNavbar
+        MainNorNavbar
     }
 }
 </script>

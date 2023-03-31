@@ -1,6 +1,6 @@
 <template>
 <nav class="navbar navbar-expand-lg shadow-5-strong sticky-top p-0 my-4">
-    <div class="container-fluid my-4">
+    <div class="container-fluid mt-4">
         <router-link to="/" class="Links ms-5 ps-3">
             <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
         </router-link>
@@ -8,7 +8,7 @@
             <button @click="canvasOn= true" class="btn" type="button">
                 <h2 class="MenyBtn me-4">Meny</h2>
             </button>    
-            <router-link to="/Produkter" class="me-4">
+            <router-link to="/Produkter" class="links me-4">
                 <img src="../../assets/Images/Vector.png" alt="" srcset=""> 
             </router-link>
         </div>
@@ -78,6 +78,9 @@ export default {
     height: 100%;
 }
 
+.navbar{
+    background-color: #151517;
+}
 
 p{
     font-size: 3rem;

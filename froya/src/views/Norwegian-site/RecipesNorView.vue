@@ -1,5 +1,5 @@
 <template>
-<nor-navbar></nor-navbar>
+<main-nor-navbar></main-nor-navbar>
 <div>
     <article class="container py-2">
         <h2>Oppskrifter med Frøya Laks</h2>
@@ -16,7 +16,7 @@
 
 
 <script>
-import NorNavbar from '@/components/shared/NorNavbar.vue';
+import MainNorNavbar from '@/components/shared/MainNorNavbar.vue';
 import NorFooter from '@/components/shared/NorFooter.vue';
 import RecipesNorList from '@/components/Norwegian-site/RecipesPage/RecipesNorList.vue';
 export default {
@@ -25,7 +25,7 @@ export default {
     },
     components: 
     { 
-        NorNavbar, 
+        MainNorNavbar, 
         NorFooter,
         RecipesNorList,
     }

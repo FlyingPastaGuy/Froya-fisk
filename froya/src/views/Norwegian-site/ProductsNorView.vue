@@ -1,5 +1,5 @@
 <template>
-    <nor-navbar></nor-navbar>
+    <main-nor-navbar></main-nor-navbar>
 <section>
     <div>
         <article class="container py-2">
@@ -19,14 +19,14 @@
 
 <script>
 import ProductsNorList from '@/components/Norwegian-site/ProductPage/ProductsNorList.vue'
-import NorNavbar from '@/components/shared/NorNavbar.vue'
+import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
 import NorFooter from '@/components/shared/NorFooter.vue'
 export default {
     setup() {
         
     },components: {
         ProductsNorList,
-        NorNavbar,
+        MainNorNavbar,
         NorFooter
     }
 }

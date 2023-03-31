@@ -1,5 +1,5 @@
 <template>
-<nor-navbar></nor-navbar>
+<main-nor-navbar></main-nor-navbar>
     <div class="bg-white">
         <article class="container py-5 my-5">
             <div class="row">
@@ -48,11 +48,11 @@
 </template>
 
 <script>
-import NorNavbar from '@/components/shared/NorNavbar.vue'
+import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
 import NorFooter from '@/components/shared/NorFooter.vue'
 
 export default {
-  components: { NorNavbar, NorFooter },
+  components: { MainNorNavbar, NorFooter },
     setup() {
         
     },
