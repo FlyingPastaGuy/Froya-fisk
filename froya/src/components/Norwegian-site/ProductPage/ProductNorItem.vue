@@ -2,7 +2,7 @@
     <article class="col-4 mb-4">
         <div class="card">
             <h3 class="mb-0">FRØYA {{ProductName}}</h3>
-            <img src='../../../assets/Images/froys-laks-midloin-kopi.jpg' alt="" class="card-img-top rounded-0">
+            <img :src="getProductImage()" alt="" class="card-img-top rounded-0">
             <div class="card-body">
                 <p class="card-text">vekt: {{ProductWeight}}g</p>
                 <p class="card-text">pris: {{ProductPrice}}</p>
@@ -18,8 +18,22 @@
 
 <script>
 export default {
-    setup() {
-        
+    setup(props) {
+
+        const getProductImage = () => {
+            let ProductImage;
+
+            try{
+                ProductImage = require(`@/assets/Images/${props.ProductImage}`);
+            } catch{
+                ProductImage = require(`@/assets/Images/froys-laks-midloin-kopi.jpg`);
+            }
+            return ProductImage;
+        }
+
+        return {
+            getProductImage,
+        }
     },
     props: {
         ProductImage: String,
@@ -28,7 +42,7 @@ export default {
         ProductPrice: Number,
         ProductInventory:Boolean,
         ProductLink: String
-    }
+    },
 }
 </script>
 

@@ -4,7 +4,7 @@ const productNorService = (function(){
     const productNor = ref([
         {
             ProductName: "back Loin",
-            ProductImage: "logo.png",
+            ProductImage: "froys-laks-midloin-kopi.jpg",
             ProductWeight: 350,
             ProductPrice: 299,
             ProductInventory:true,
@@ -12,7 +12,7 @@ const productNorService = (function(){
         },
         {
             ProductName: "back Loin",
-            ProductImage: "",
+            ProductImage: "froys-laks-midloin-kopi.jpg",
             ProductWeight: 350,
             ProductPrice: 299,
             ProductInventory:true,
@@ -20,7 +20,7 @@ const productNorService = (function(){
         },
         {
             ProductName: "back Loin",
-            ProductImage: "",
+            ProductImage: "froys-laks-midloin-kopi.jpg",
             ProductWeight: 350,
             ProductPrice: 299,
             ProductInventory:true,
@@ -28,7 +28,7 @@ const productNorService = (function(){
         },
         {
             ProductName: "back Loin",
-            ProductImage: "",
+            ProductImage: "froys-laks-midloin-kopi.jpg",
             ProductWeight: 350,
             ProductPrice: 299,
             ProductInventory:false,
