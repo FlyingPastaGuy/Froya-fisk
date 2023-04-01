@@ -12,6 +12,15 @@ import GinMarinatedSalmonNor from '@/components/Norwegian-site/RecipesPage/Recip
 import SalmonWithGarlicAndParmesanCrustNor from '@/components/Norwegian-site/RecipesPage/Recipes/SalmonWithGarlicAndParmesanCrustNor.vue';
 import SalmonAndChampagneBeurreBlancNor from '@/components/Norwegian-site/RecipesPage/Recipes/SalmonAndChampagneBeurreBlancNor.vue';
 
+//Norwagian AboutUs
+import AboutUsNorSustainable from '@/components/Norwegian-site/AboutUsPage/AboutUsNorSustainable.vue'
+
+//Norwagian Products
+import BackLoin350gNor from '@/components/Norwegian-site/ProductPage/Products/BackLoin350gNor.vue'
+import MidLoin150gNor from '@/components/Norwegian-site/ProductPage/Products/MidLoin150gNor.vue'
+import MidLoin350gNor from '@/components/Norwegian-site/ProductPage/Products/MidLoin350gNor.vue'
+import BackLoin150gNor from '@/components/Norwegian-site/ProductPage/Products/BackLoin150gNor.vue'
+
 //English views/pages
 import HomeEngView from '../views/English-site/HomeEngView.vue';
 import AboutUsEngView from '../views/English-site/AboutUsEngView.vue';
@@ -62,7 +71,33 @@ const routes = [
         name:'SalmonAndChampagneBeurreBlancNor',
         component: SalmonAndChampagneBeurreBlancNor
     },
-
+    //Norwagian AboutUs
+    {
+        path:'/AboutUsNorSustainable',
+        name:'AboutUsNorSustainable',
+        component: AboutUsNorSustainable
+    },
+    //Norwagian Products
+    {
+        path:'/BackLoin350gNor',
+        name:'BackLoin350gNor',
+        component:BackLoin350gNor
+    },
+    {
+        path:'/MidLoin150gNor',
+        name:'MidLoin150gNor',
+        component:MidLoin150gNor
+    },
+    {
+        path:'/MidLoin350gNor',
+        name:'MidLoin350gNor',
+        component: MidLoin350gNor
+    },
+    {
+        path:'/BackLoin150gNor',
+        name:'BackLoin150gNor',
+        component:BackLoin150gNor
+    },
 
 ///English views/pages
     {
