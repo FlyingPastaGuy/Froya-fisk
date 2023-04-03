@@ -46,6 +46,7 @@
                 </div>
             </div>
         </article>
+        
     </div>
 <nor-footer></nor-footer>
 </template>

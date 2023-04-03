@@ -6,6 +6,7 @@ import ContactUsNorView from '../views/Norwegian-site/ContactUsNorView.vue';
 import AboutUsNorView from '../views/Norwegian-site/AboutUsNorView.vue';
 import ProductsNorView from '../views/Norwegian-site/ProductsNorView.vue';
 import RecipesNorView from '../views/Norwegian-site/RecipesNorView';
+import PayoutNorView from '../views/Norwegian-site/PayoutNorView.vue';
 
 //Norwagian Recipes
 import GinMarinatedSalmonNor from '@/components/Norwegian-site/RecipesPage/Recipes/GinMarinatedSalmonNor.vue';
@@ -54,6 +55,11 @@ const routes = [
         path: '/Oppskrifter',
         name: 'Oppskrifter',
         component: RecipesNorView
+    },
+    {
+        path: '/handlekruv',
+        name: 'handlekurv',
+        component: PayoutNorView
     },
     ///Norwagian Recipes
     {

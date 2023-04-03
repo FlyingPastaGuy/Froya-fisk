@@ -8,7 +8,7 @@
             <button @click="canvasOn= true" class="btn" type="button">
                 <h2 class="MenyBtn me-4">Meny</h2>
             </button>    
-            <router-link to="/Produkter" class="me-4">
+            <router-link to="/handlekruv" class="me-4">
                 <img src="../../assets/Images/Vector.png" alt="" srcset=""> 
             </router-link>
         </div>
