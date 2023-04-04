@@ -1,11 +1,11 @@
 <template>
-<nav class="navbar navbar-expand-lg  navbar-dark shadow-5-strong sticky-top p-0 my-4">
+<nav class="navbar navbar-expand-lg shadow-5-strong sticky-top p-0 my-4">
     <div class="container-fluid">
         <router-link to="/" class="Links logo">
             <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
         </router-link>
         <div class="align-self-end">
-            <button @click="canvasOn= true" class="btn" type="button">
+            <button @click="canvasOn= true" class="Links btn" type="button">
                 <h2 class="MenyBtn">Meny</h2>
             </button>    
             <router-link to="/handlekruv" class="Links handlevogn">
@@ -71,6 +71,7 @@ export default {
 .navbar{
     background-color: #090909;
     overflow: hidden;
+
 }
 .Links{
     text-decoration:none;
@@ -83,9 +84,8 @@ export default {
 }
 .btn{
     position: fixed;
-    top: 1%;
+    top: 2%;
     left: 89%;
-
 }
 .logo{
     position: fixed;
@@ -94,7 +94,7 @@ export default {
 }
 .handlevogn{
     position: fixed;
-    top: 2.5%;
+    top: 3.5%;
     left: 95%;
 }
 .offcanvas{

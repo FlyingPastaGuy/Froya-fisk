@@ -84,7 +84,7 @@ export default {
 }
 .btn{
     position: fixed;
-    top: 1%;
+    top: 2%;
     left: 89%;
 
 }
@@ -95,7 +95,7 @@ export default {
 }
 .handlevogn{
     position: fixed;
-    top: 2.5%;
+    top: 3.5%;
     left: 95%;
 }
 .offcanvas{

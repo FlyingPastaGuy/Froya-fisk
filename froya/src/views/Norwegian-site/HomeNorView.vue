@@ -1,4 +1,4 @@
-<template>
+<template class="body">
         <section class="sectionImg"> 
             <img src="../../assets/Images/grid_0.png" class="headerImg" alt="">
         </section>
@@ -193,6 +193,9 @@ html, body{
     margin: 0;
     padding: 0;
     max-width: 1400px;
+}
+.body::-webkit-scrollbar{
+    display: none;
 }
 
 .sectionImg{
