@@ -1,9 +1,10 @@
 <template>
-<nor-navbar></nor-navbar>
-    <section class="container">
         <section class="sectionImg"> 
             <img src="../../assets/Images/grid_0.png" class="headerImg" alt="">
         </section>
+<nor-navbar></nor-navbar>
+    <section class="container">
+
         
         <div class="row">
             <article class="col-4 mb-4">

@@ -1,14 +1,14 @@
 <template>
-<nav class="navbar navbar-expand-lg shadow-5-strong sticky-top p-0 my-4">
-    <div class="container-fluid my-4">
-        <router-link to="/" class="Links ms-5 ps-3">
+<nav class="navbar navbar-expand-lg  navbar-dark shadow-5-strong sticky-top p-0 my-4">
+    <div class="container-fluid">
+        <router-link to="/" class="Links logo">
             <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
         </router-link>
         <div class="align-self-end">
             <button @click="canvasOn= true" class="btn" type="button">
-                <h2 class="MenyBtn me-4">Meny</h2>
+                <h2 class="MenyBtn">Meny</h2>
             </button>    
-            <router-link to="/handlekruv" class="me-4">
+            <router-link to="/handlekruv" class="Links handlevogn">
                 <img src="../../assets/Images/Vector.png" alt="" srcset=""> 
             </router-link>
         </div>
@@ -68,16 +68,39 @@ export default {
 
 <style scoped>
 
+.navbar{
+    background-color: #090909;
+    overflow: hidden;
+}
 .Links{
     text-decoration:none;
     position: relative;
 }
 
+.MenyBtn{
+    color: white;
+    font-size: 2rem;
+}
+.btn{
+    position: fixed;
+    top: 1%;
+    left: 89%;
+
+}
+.logo{
+    position: fixed;
+    top: 2%;
+    right: 85%;
+}
+.handlevogn{
+    position: fixed;
+    top: 2.5%;
+    left: 95%;
+}
 .offcanvas{
     background-color: #090909;;
     height: 100%;
 }
-
 
 p{
     font-size: 3rem;
