@@ -13,16 +13,19 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>mid loin</td>
-                                <td>199</td>
-                                <td>2</td>
-                                <td>398kr</td>
-                            </tr>
-                            <tr>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                            <tr v-for="(product,i) in producktArray" :key="i">
+                                <td><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
+                                <td><p>{{product.ProductPrice}}</p></td>
+                                <td>
+                                    <div class="input-group">
+                                        <input type="button" value="-" class="length">
+                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center">
+                                        <input type="button" value="+" class="length" @click="addproduct(i)">
+                                    </div>
+                                    
+                                </td>
+                                <td><p>{{product.ProductSubtotal}}</p></td>
+                                
                             </tr>
                         </tbody>
                     </table>
@@ -36,9 +39,62 @@
 </template>
 
 <script>
+import { reactive } from 'vue'
+//import PayoutItem from './PayoutItem.vue'
 export default {
+//components: { PayoutItem },
     setup() {
-        
+        let producktArray = reactive([
+            {   
+                ProductImg: '',
+                ProductPrice: 199,
+                ProductAmount: 2,
+                ProductSubtotal: 199*2
+            },
+            {   
+                ProductImg: '',
+                ProductPrice: 199,
+                ProductAmount: 3,
+                ProductSubtotal: 199*3
+            }
+        ])
+
+
+const addproduct = (e) => {
+
+    let updateAmount = producktArray[e].ProductAmount++
+    let NewSubtotal = producktArray[e].ProductPrice * producktArray[e].ProductAmount;
+
+    producktArray[e].ProductSubtotal = NewSubtotal
+    producktArray[e].ProductAmount == updateAmount
+
+    alert(producktArray[e].ProductSubtotal)
+
+}
+
+const getProductImage = (e) => {
+            let ProductImage;
+
+            try{
+                ProductImage = require(`@/assets/Images/${producktArray[e].ProductImg}`);
+            } catch{
+                ProductImage = require(`@/assets/Images/froys-laks-midloin-kopi.jpg`);
+            }
+            return ProductImage;
+        }
+
+        return{
+            producktArray,
+            getProductImage,
+            addproduct
+        }
     },
 }
 </script>
+
+
+<style scoped>
+p{
+    color: #000;
+}
+</style>

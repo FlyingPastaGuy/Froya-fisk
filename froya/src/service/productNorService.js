@@ -7,6 +7,7 @@ const productNorService = (function(){
             ProductImage: "froya-laks-bacloin.jpg",
             ProductWeight: 350,
             ProductPrice: 299,
+            ProductAmount:1,
             ProductInventory:true,
             ProductLink: "BackLoin350gNor"
         },
@@ -15,6 +16,7 @@ const productNorService = (function(){
             ProductImage: "froya-laks-bacloin.jpg",
             ProductWeight: 350,
             ProductPrice: 299,
+            ProductAmount:1,
             ProductInventory:true,
             ProductLink: "MidLoin350gNor"
         },
@@ -23,6 +25,7 @@ const productNorService = (function(){
             ProductImage: "froys-laks-midloin-kopi.jpg",
             ProductWeight: 150,
             ProductPrice: 199,
+            ProductAmount:1,
             ProductInventory:true,
             ProductLink: "MidLoin150gNor"
         },
@@ -31,6 +34,7 @@ const productNorService = (function(){
             ProductImage: "froys-laks-midloin-kopi.jpg",
             ProductWeight: 150,
             ProductPrice: 199,
+            ProductAmount:1,
             ProductInventory:false,
             ProductLink: "BackLoin150gNor"
         },
@@ -39,8 +43,13 @@ const productNorService = (function(){
         return productNor
     }
 
+    const addAmount = (e) => {
+        return productNor[e].ProductAmount++
+    }
+
     return{
-        getAllProductsNor
+        getAllProductsNor,
+        addAmount
     }
 }());
 
