@@ -1,7 +1,7 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
     <div class="bg-white py-5">
-        <article class="container ">
+        <article class="container">
             <div class="row py-5">
                 <div class="col">
                     <img src="@/assets/Images/froya-laks-bacloin.jpg" alt="" srcset="" class="img-fluid border border-0">
