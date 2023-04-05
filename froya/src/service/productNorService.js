@@ -42,14 +42,8 @@ const productNorService = (function(){
     const getAllProductsNor = () => {
         return productNor
     }
-
-    const addAmount = (e) => {
-        return productNor[e].ProductAmount++
-    }
-
     return{
         getAllProductsNor,
-        addAmount
     }
 }());
 

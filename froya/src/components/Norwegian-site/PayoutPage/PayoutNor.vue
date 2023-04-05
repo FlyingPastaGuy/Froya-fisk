@@ -18,20 +18,29 @@
                                 <td><p>{{product.ProductPrice}}</p></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="button" value="-" class="length">
+                                        <input type="button" value="-" class="length" @click="reduseproduct(i)">
                                         <input type="text" :placeholder="product.ProductAmount" class="length text-center">
                                         <input type="button" value="+" class="length" @click="addproduct(i)">
                                     </div>
                                     
                                 </td>
                                 <td><p>{{product.ProductSubtotal}}</p></td>
-                                
+                                <td><input type="button" value="" class="btn-close" @click="deleteProduct(i)"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col">
-
+                    <div>
+                        <h3>Din ordre oppsumert</h3>
+                        <div>
+                            <p>total</p>
+                            <p>{{productTotal}}</p>
+                            <hr>
+                            <p>Pris før frakt</p>
+                            <p>{{productTotal}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>
@@ -39,7 +48,7 @@
 </template>
 
 <script>
-import { reactive } from 'vue'
+import { reactive, ref } from 'vue'
 //import PayoutItem from './PayoutItem.vue'
 export default {
 //components: { PayoutItem },
@@ -59,6 +68,16 @@ export default {
             }
         ])
 
+let productTotal = ref(0)
+
+const updateTotal = () => {
+    productTotal.value = 0
+
+    for(let i = 0; i< producktArray.length; i++){
+        productTotal.value = productTotal.value + producktArray[i].ProductSubtotal
+    }
+
+}
 
 const addproduct = (e) => {
 
@@ -68,9 +87,36 @@ const addproduct = (e) => {
     producktArray[e].ProductSubtotal = NewSubtotal
     producktArray[e].ProductAmount == updateAmount
 
-    alert(producktArray[e].ProductSubtotal)
+    //alert(producktArray[e].ProductSubtotal)
+
+    updateTotal();
 
 }
+
+const reduseproduct = (e) => {
+    if(producktArray[e].ProductAmount > 1){
+        let updateAmount = producktArray[e].ProductAmount--
+        let NewSubtotal = producktArray[e].ProductSubtotal - producktArray[e].ProductPrice  ;
+
+        producktArray[e].ProductSubtotal = NewSubtotal
+        producktArray[e].ProductAmount == updateAmount
+
+        alert(producktArray[e].ProductSubtotal)
+    }else{
+        deleteProduct(e)
+    }
+    updateTotal();
+}
+
+const deleteProduct = (e) => {
+    if(confirm("er du sikker på at du ønsker å fjerne dette produktet") == true){
+        producktArray.shift(e)
+    }else{
+        return false
+    }
+    updateTotal();
+}
+
 
 const getProductImage = (e) => {
             let ProductImage;
@@ -83,10 +129,16 @@ const getProductImage = (e) => {
             return ProductImage;
         }
 
+        updateTotal();
+
         return{
             producktArray,
             getProductImage,
-            addproduct
+            addproduct,
+            reduseproduct,
+            updateTotal,
+            productTotal,
+            deleteProduct
         }
     },
 }
@@ -94,7 +146,7 @@ const getProductImage = (e) => {
 
 
 <style scoped>
-p{
+p,h1,h2,h3{
     color: #000;
 }
 </style>
