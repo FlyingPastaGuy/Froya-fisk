@@ -40,6 +40,7 @@
                             <p>Pris før frakt</p>
                             <p>{{productTotal}}</p>
                         </div>
+                        <input type="button" value="Betal" class="btn">
                     </div>
                 </div>
             </div>
@@ -49,9 +50,7 @@
 
 <script>
 import { reactive, ref } from 'vue'
-//import PayoutItem from './PayoutItem.vue'
 export default {
-//components: { PayoutItem },
     setup() {
         let producktArray = reactive([
             {   
@@ -68,6 +67,13 @@ export default {
             }
         ])
 
+/*
+    productTotal er total prisen for 
+    alle produktene som er lagt til 
+    og udateTotal skal holde prisen 
+    oppdatert
+*/
+
 let productTotal = ref(0)
 
 const updateTotal = () => {
@@ -78,7 +84,15 @@ const updateTotal = () => {
     }
 
 }
-
+/*
+    addproduct øker antall produkter,men oppdaterer også
+    subtotalen og reduseproduct reduserer antall og oppdaterer
+    subtotalen ved å ta ProductSubtotal - ProductPrice for å
+    få oppdaterte nummere.
+    e her er i når v-for loopen linje 16-28.
+    begge har også updateTotal() i seg for å holde productTotal 
+    oppdatert
+*/
 const addproduct = (e) => {
 
     let updateAmount = producktArray[e].ProductAmount++
@@ -86,8 +100,6 @@ const addproduct = (e) => {
 
     producktArray[e].ProductSubtotal = NewSubtotal
     producktArray[e].ProductAmount == updateAmount
-
-    //alert(producktArray[e].ProductSubtotal)
 
     updateTotal();
 
@@ -107,7 +119,10 @@ const reduseproduct = (e) => {
     }
     updateTotal();
 }
-
+/*
+    deleteProduct sletter selve produktet fra handlekurven,
+    men spør om du er sikker på at du hvil gjøre det
+*/
 const deleteProduct = (e) => {
     if(confirm("er du sikker på at du ønsker å fjerne dette produktet") == true){
         producktArray.shift(e)
@@ -117,7 +132,10 @@ const deleteProduct = (e) => {
     updateTotal();
 }
 
-
+/*
+    henter bilder, men hvis den ikke finner det så henter det et 
+    annet bilde som finnes
+*/
 const getProductImage = (e) => {
             let ProductImage;
 
@@ -128,7 +146,10 @@ const getProductImage = (e) => {
             }
             return ProductImage;
         }
-
+    /*
+        updateTotal er her fordi vi ønsker at totalen 
+        skal være riktig med en gang vi kommer inn
+    */
         updateTotal();
 
         return{
