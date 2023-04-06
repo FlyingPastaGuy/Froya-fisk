@@ -61,9 +61,9 @@ export default {
             },
             {   
                 ProductImg: '',
-                ProductPrice: 199,
+                ProductPrice: 299,
                 ProductAmount: 3,
-                ProductSubtotal: 199*3
+                ProductSubtotal: 299*3
             }
         ])
 
@@ -113,7 +113,6 @@ const reduseproduct = (e) => {
         producktArray[e].ProductSubtotal = NewSubtotal
         producktArray[e].ProductAmount == updateAmount
 
-        alert(producktArray[e].ProductSubtotal)
     }else{
         deleteProduct(e)
     }
