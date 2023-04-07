@@ -1,99 +1,42 @@
 <template>
-    <section class="container text-center my-3">
-        <div class="row mx-auto my-auto">
-            <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item py-5 active">
-                        <div class="row">
-                            <article class="col-sm-4">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Card 1</h4>
-                                        <p class="card-text">Some make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Card 1</h4>
-                                        <p class="card-text">Some make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4">
-                                <div class="card border-0" style="background-color: #151517;">
-                                    <img src="@/assets/Images/froys-laks-midloin.png" alt="">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-primary">Card 1</h4>
-                                        <p class="card-text">Some make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                        
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="carousel-item py-5">
-                        <div class="row">
-                            <article class="col-sm-4">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Card</h4>
-                                        <p class="card-text">Some make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <h4 class="card-title text-primary">Card</h4>
-                                        <p class="card-text">Some make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="col-sm-4">
-                                <div class="card border-0">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Card</h4>
-                                        <p class="card-text">Some make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Button</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
-                    <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </section>
 
-    <section>
-        <input type="button" value="Se våre produkter" class="btn btn-outline-light mb-3" style="border-radius: 0%;">
-    </section>
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="@/assets/Images/froya-laks-bacloin.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="@/assets/Images/froya-laks-bacloin.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
 </template>
-
-
-    
-    
-    <style scoped>
-    
-    </style>
-
-

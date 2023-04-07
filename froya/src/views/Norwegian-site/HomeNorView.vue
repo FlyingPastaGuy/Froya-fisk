@@ -6,11 +6,11 @@
     <section class="container">
 
         
-        <div class="row">
-            <article class="col-4 mb-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <article class="col">
                 <div class="card bg-transparent border-0">
                     <div class="card-body">
-                        <h1 class="card-title">Fersk norsk laks</h1>
+                        <h1 class="card-titlight">Fersk norsk laks</h1>
                         <p class="card-text">Fra kalde og klare farvann langs kysten på Frøya.</p>
                         <router-link to="">
                             <input type="button" value="Les mer om våre produkter" class="btn btn-outline-light" style="border-radius: 0%;">
@@ -22,13 +22,13 @@
     </section>
 
     <section class="container">
-        <h3 style="width: 42rem;">Frøya sin laks er ikke populær hos sushi-kokkene uten grunn</h3>
-<div class="row">
-    <article class="col-4 mb-4">
+        <h3 class="text-wrap text-lg-start px-3" >Frøya sin laks er ikke populær hos sushi-kokkene uten grunn</h3>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <article class="col">
         <div class="card bg-transparent border-0">
             <img src="../../assets/Images/2hours.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
             <div class="card-body">
-                <h3 class="card-title">PAKKET I LØPETAV TO TIMER</h3>
+                <h3 class="card-title text-light">PAKKET I LØPETAV TO TIMER</h3>
                 <p class="card-text">Fra laksen er sprell levende til den er pakket og klar for rask nedkjøling
                     går det normalt kun to timer. Slik er du garantert laks av den fineste kvaliteten og med
                     den beste smaken når du velger Frøya laks</p>
@@ -39,11 +39,11 @@
         </div>
     </article>
 
-    <article class="col-4 mb-4" >
+    <article class="col" >
         <div class="card bg-transparent border-0">
             <img src="../../assets/Images/Loins.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
             <div class="card-body">
-                <h3 class="card-title">BACK LOIN ELLERMID LOIN</h3>
+                <h3 class="card-title text-light">BACK LOIN ELLERMID LOIN</h3>
                 <p class="card-text">Sushi elskerens førstevalg er det
                     delikate ryggstykket «back-loin».
                     Du får flotte, ensartede og faste skiver fisk. 
@@ -51,16 +51,14 @@
                     setter en ekstra god smak og gir en fin, delikat 
                     munnfølelse når du tilbereder fisken på grillen.</p>
             </div>
-
-
         </div>
     </article>
 
-    <article class="col-4 mb-4">
+    <article class="col">
         <div class="card bg-transparent border-0">
             <img src="../../assets/Images/gradernord.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
             <div class="card-body">
-                <h3 class="card-title">FRA FRØYA PÅTRØNDELAGSKYSTEN</h3>
+                <h3 class="card-title text-light">FRA FRØYA PÅTRØNDELAGSKYSTEN</h3>
                 <p class="card-text">Det er ingen hemmelighet at omgivelsene er viktige. 
                     Havmiljøet rundt øya Frøya danner et ideelt grunnlag 
                     for marint mangfold og er blant de ypperste i verden.
@@ -100,36 +98,37 @@
     
     <section class="container text-center" style="margin-bottom: 15rem; margin-top: 10rem;">
         <h3>VÅRE PRODUKTER FINNER DU HOS FØLGENDE KJEDER</h3>
-        <div class="row justify-content-center ">
-            <div class="col-3">
+
+        <div class="row justify-content-center row-cols-1 row-cols-lg-4 g-4">
+            <div class="col">
                 <img src="@/assets/Images/spar.png" alt="">
             </div>
-            <div class="col-3">
+            <div class="col">
                 <img src="@/assets/Images/kiwi.png" alt="">
             </div>
-            <div class="col-3">
+            <div class="col">
                 <img src="@/assets/Images/jacobs.png" alt="">
             </div>
-            <div class="col-3">
+            <div class="col">
                 <img src="@/assets/Images/meny.png" alt="">
             </div>
         </div>
     </section>
 
-    <section class="container" style="margin-bottom: 7rem; margin-top: 10rem;">
-        <h3>Smakfulle oppskrifter</h3>
-        <p class="text-wrap" style="width: 35rem;">Se våre fristende oppskrifter og bli inspirert.  
+    <section class="container " style="margin-bottom: 7rem; margin-top: 10rem;">
+        <h3 class="px-3">Smakfulle oppskrifter</h3>
+        <p class="text-wrap px-3" >Se våre fristende oppskrifter og bli inspirert.  
             Frøya laks passer både til hverdags og til festlige anledninger. 
             Like godt på sommeren som på vinteren.</p>
     </section>
 
     <section class="container">
-    <div class="row">
-        <article class="col-4 mb-4">
-            <div class="card border-0" style="background-color: #151517;">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <article class="col">
+            <div class="card h-100 border-0" style="background-color: #151517;">
                 <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
-                <div class="card-body" style="background-color: white;">
-                    <p class="card-text text-dark text-wrap" style="width: 12rem;">Ginmarinert Frøya laks Marinert laks med agurk, gin og rips</p>
+                <div class="card-body " style="background-color: white;">
+                    <p class="card-text text-dark text-wrap" >Ginmarinert Frøya laks Marinert laks med agurk, gin og rips</p>
                     <router-link to="">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
@@ -137,11 +136,11 @@
             </div>
         </article>
 
-        <article class="col-4 mb-4">
-            <div class="card border-0" style="background-color: #151517;">
+        <article class="col">
+            <div class="card h-100 border-0" style="background-color: #151517;">
                 <img src="@/assets/Images/Froya-til-fest-hovedrett-med-rodbete-marinert-laks.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
-                    <p class="card-text text-dark text-wrap" style="width: 12rem;">Ovnsbakt laks med urter & hvitløks-crust, grønn potetmos & urteolje</p>
+                    <p class="card-text text-dark text-wrap">Ovnsbakt laks med urter & hvitløks-crust, grønn potetmos & urteolje</p>
                     <router-link to="">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
@@ -149,11 +148,11 @@
             </div>
         </article>
 
-        <article class="col-4 mb-4">
-            <div class="card border-0" style="background-color: #151517;">
+        <article class="col">
+            <div class="card h-100 border-0" style="background-color: #151517;">
                 <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
-                    <p class="card-text text-dark text-wrap" style="width: 15rem;">Pannestekt laks med champagne beurre blanc, aspargesbønner og Hasselbäck poteter</p>
+                    <p class="card-text text-dark text-wrap" >Pannestekt laks med champagne beurre blanc, aspargesbønner og Hasselbäck poteter</p>
                     <router-link to="">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
@@ -208,6 +207,10 @@ html, body{
     height: auto;
     
 }
-
+@media screen and (min-width: 577px) {
+    .cards-wrapper {
+        display: flex;
+    }
+}
 
 </style>
