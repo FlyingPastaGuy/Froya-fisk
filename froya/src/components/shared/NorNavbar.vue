@@ -1,3 +1,4 @@
+//TIL HOVEDSIDEN
 <template>
 <nav class="navbar navbar-expand-lg shadow-5-strong sticky-top p-0 my-4">
     <div class="container-fluid">

@@ -1,3 +1,4 @@
+//IKKE TIL HOVEDSIDE
 <template>
 <nav class="navbar navbar-expand-lg shadow-5-strong sticky-top p-0 overflow-auto ">
     <div class="container-fluid">
