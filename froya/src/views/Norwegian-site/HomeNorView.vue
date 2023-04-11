@@ -3,12 +3,10 @@
             <img src="../../assets/Images/grid_0.png" class="headerImg" alt="">
         </section>
 <nor-navbar></nor-navbar>
-    <section class="container">
-
-        
+    <section class="container ">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <article class="col">
-                <div class="card bg-transparent border-0">
+                <div class="card bg-transparent border-0 mb-5">
                     <div class="card-body">
                         <h1 class="card-titlight">Fersk norsk laks</h1>
                         <p class="card-text">Fra kalde og klare farvann langs kysten på Frøya.</p>
@@ -23,51 +21,54 @@
 
     <section class="container">
         <h3 class="text-wrap text-lg-start px-3" >Frøya sin laks er ikke populær hos sushi-kokkene uten grunn</h3>
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    <article class="col">
-        <div class="card bg-transparent border-0">
-            <img src="../../assets/Images/2hours.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
-            <div class="card-body">
-                <h3 class="card-title text-light">PAKKET I LØPETAV TO TIMER</h3>
-                <p class="card-text">Fra laksen er sprell levende til den er pakket og klar for rask nedkjøling
-                    går det normalt kun to timer. Slik er du garantert laks av den fineste kvaliteten og med
-                    den beste smaken når du velger Frøya laks</p>
-                <router-link to="">
-                    <input type="button" value="Les mer om Frøya" class="btn btn-outline-light" style="border-radius: 0%;">
-                </router-link>
-            </div>
-        </div>
-    </article>
 
-    <article class="col" >
-        <div class="card bg-transparent border-0">
-            <img src="../../assets/Images/Loins.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
-            <div class="card-body">
-                <h3 class="card-title text-light">BACK LOIN ELLERMID LOIN</h3>
-                <p class="card-text">Sushi elskerens førstevalg er det
-                    delikate ryggstykket «back-loin».
-                    Du får flotte, ensartede og faste skiver fisk. 
-                    Midtstykket er litt fetere og saftigere. Dette 
-                    setter en ekstra god smak og gir en fin, delikat 
-                    munnfølelse når du tilbereder fisken på grillen.</p>
-            </div>
-        </div>
-    </article>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <article class="col">
+                <div class="card bg-transparent border-0 mb-5">
+                    <img src="../../assets/Images/2hours.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
+                    <div class="card-body">
+                        <h3 class="card-title text-light">PAKKET I LØPETAV TO TIMER</h3>
+                        <p class="card-text">Fra laksen er sprell levende til den er pakket og klar for rask nedkjøling
+                            går det normalt kun to timer. Slik er du garantert laks av den fineste kvaliteten og med
+                            den beste smaken når du velger Frøya laks</p>
+                        <router-link to="" class="pt-4">
+                            <input type="button" value="Les mer om Frøya" class="btn btn-outline-light" style="border-radius: 0%;">
+                        </router-link>
+                    </div>
+                </div>
+            </article>
 
-    <article class="col">
-        <div class="card bg-transparent border-0">
-            <img src="../../assets/Images/gradernord.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
-            <div class="card-body">
-                <h3 class="card-title text-light">FRA FRØYA PÅTRØNDELAGSKYSTEN</h3>
-                <p class="card-text">Det er ingen hemmelighet at omgivelsene er viktige. 
-                    Havmiljøet rundt øya Frøya danner et ideelt grunnlag 
-                    for marint mangfold og er blant de ypperste i verden.
-                    Tidevann og sterke strømmer fører kontinuerlig inn rent,
-                    næringsrikt sjøvann.</p>
-            </div>
+            <article class="col" >
+                <div class="card bg-transparent border-0">
+                    <img src="../../assets/Images/Loins.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
+                    <div class="card-body">
+                        <h3 class="card-title text-light">BACK LOIN ELLERMID LOIN</h3>
+                        <p class="card-text">Sushi elskerens førstevalg er det
+                            delikate ryggstykket «back-loin».
+                            Du får flotte, ensartede og faste skiver fisk. 
+                            Midtstykket er litt fetere og saftigere. Dette 
+                            setter en ekstra god smak og gir en fin, delikat 
+                            munnfølelse når du tilbereder fisken på grillen.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col">
+                <div class="card bg-transparent border-0">
+                    <img src="../../assets/Images/gradernord.png" alt="" class="card-img-top align-self-start cardImg" style="width: 50%;">
+                    <div class="card-body">
+                        <h3 class="card-title text-light">FRA FRØYA PÅTRØNDELAGSKYSTEN</h3>
+                        <p class="card-text">Det er ingen hemmelighet at omgivelsene er viktige. 
+                            Havmiljøet rundt øya Frøya danner et ideelt grunnlag 
+                            for marint mangfold og er blant de ypperste i verden.
+                            Tidevann og sterke strømmer fører kontinuerlig inn rent,
+                            næringsrikt sjøvann.</p>
+                    </div>
+                </div>
+            </article>
         </div>
-    </article>
-</div>
+
+    </section>
 
 <our-products-nor></our-products-nor>
 
@@ -164,8 +165,8 @@
     
     </section>
 
-</section>
-    <section class=""></section>
+
+
     <nor-footer></nor-footer>
 </template>
 
