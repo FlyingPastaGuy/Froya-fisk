@@ -1,7 +1,7 @@
 <template>
     <article class="col-4 mb-4">
         <div class="card">
-            <img :src="`${RecipeImage}`" alt="" class="card-img-top">
+            <img :src="getProductImage()" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">{{RecipeName}}</h3>
                 <p class="card-text">{{RecipeDescription}}</p>
@@ -16,8 +16,22 @@
 
 <script>
 export default {
-    setup() {
-        
+ setup(props) {
+
+        const getProductImage = () => {
+            let ProductImage;
+
+            try{
+                ProductImage = require(`@/assets/Images/${props.RecipeImage}`);
+            } catch{
+                ProductImage = require(`@/assets/Images/froys-laks-midloin-kopi.jpg`);
+            }
+            return ProductImage;
+        }
+
+        return {
+            getProductImage,
+        }
     },
     props: {
         RecipeImage: String,

@@ -4,39 +4,39 @@ const recipesNorService = (function(){
     const recipesNor = ref([
         {
         recipeImage: "",
-        recipeName: "fisk",
-        recipeDescription: "mer info",
+        recipeName: "Ginmarinert Frøya laks",
+        recipeDescription: "Marinert laks med agruk, gin og rips",
         recipeLink: "GinMarinatedSalmonNor",
         },
         {
             recipeImage: "",
-            recipeName: "fisk",
-            recipeDescription: "mer info",
+            recipeName: "Frøya laks med hvitløk & permesan-crust",
+            recipeDescription: "Grønn potetmøs & urteolje",
             recipeLink: "SalmonWithGarlicAndParmesanCrustNor",
         },
         {
             recipeImage: "",
-            recipeName: "fisk",
-            recipeDescription: "mer info",
+            recipeName: "Laks og champgne beurre blanc",
+            recipeDescription: "Pannestekt laks med champgne beurre blanc, aspargesbønner og hasselback poteter",
             recipeLink: "SalmonAndChampagneBeurreBlancNor",
         },
         {
             recipeImage: "",
-            recipeName: "fisk",
-            recipeDescription: "mer info",
-            recipeLink: "Kontakt-oss",
+            recipeName: "Ginmarinert Frøya laks",
+            recipeDescription: "Marinert laks med agruk, gin og rips",
+            recipeLink: "GinMarinatedSalmonNor",
         },
         {
             recipeImage: "",
-            recipeName: "fisk",
-            recipeDescription: "mer info",
-            recipeLink: "Kontakt-oss",
+            recipeName: "Frøya laks med hvitløk & permesan-crust",
+            recipeDescription: "Grønn potetmøs & urteolje",
+            recipeLink: "SalmonWithGarlicAndParmesanCrustNor",
         },
         {
             recipeImage: "",
-            recipeName: "fisk",
-            recipeDescription: "mer info",
-            recipeLink: "Kontakt-oss",
+            recipeName: "Laks og champgne beurre blanc",
+            recipeDescription: "Pannestekt laks med champgne beurre blanc, aspargesbønner og hasselback poteter",
+            recipeLink: "SalmonAndChampagneBeurreBlancNor",
         }
     ]);
 

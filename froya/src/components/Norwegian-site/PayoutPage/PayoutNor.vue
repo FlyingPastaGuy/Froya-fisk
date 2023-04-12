@@ -2,36 +2,44 @@
     <div class="bg-white">
         <article class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mt-3">
                     <table>
-                        <thead>
-                            <tr>
-                                <th>produkt</th>
-                                <th>pris</th>
-                                <th>antall</th>
-                                <th>subtotal</th>
+                        <thead class="text-center">
+                            <tr class="bg-color">
+                                <th>
+                                    <p >produkt</p> 
+                                </th>
+                                <th> 
+                                    <p>pris</p> 
+                                </th>
+                                <th> 
+                                    <p>antall</p> 
+                                </th>
+                                <th class="pe-5"> 
+                                    <p>subtotal</p> 
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr v-for="(product,i) in producktArray" :key="i">
-                                <td><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
-                                <td><p>{{product.ProductPrice}}</p></td>
+                                <td class="pe-4"><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
+                                <td class="pe-4"><p>{{product.ProductPrice}}</p></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="button" value="-" class="length" @click="reduseproduct(i)">
-                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center">
                                         <input type="button" value="+" class="length" @click="addproduct(i)">
+                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center">
+                                        <input type="button" value="-" class="length" @click="reduseproduct(i)">
                                     </div>
                                     
                                 </td>
-                                <td><p>{{product.ProductSubtotal}}</p></td>
+                                <td class="ps-4"><p>{{product.ProductSubtotal}}</p></td>
                                 <td><input type="button" value="" class="btn-close" @click="deleteProduct(i)"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col">
-                    <div>
+                <div class="col mt-5">
+                    <div class="w-50">
                         <h3>Din ordre oppsumert</h3>
                         <div>
                             <p>total</p>
@@ -40,7 +48,8 @@
                             <p>Pris før frakt</p>
                             <p>{{productTotal}}</p>
                         </div>
-                        <input type="button" value="Betal" class="btn">
+                        <p class="underline">Gratulerer, du har fri frakt!</p>
+                        <input type="button" value="Betal" class="btn btn-dark rounded-0 text-center mx-auto d-block">
                     </div>
                 </div>
             </div>
@@ -168,5 +177,27 @@ const getProductImage = (e) => {
 <style scoped>
 p,h1,h2,h3{
     color: #000;
+}
+
+.length{
+    width: 2rem;
+}
+
+.underline{
+    text-decoration-line: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.25rem;
+}
+
+.card-img-top{
+    max-width: 20rem;
+}
+
+.bg-color{
+    background-color: #dadada;
+}
+
+.btn{
+    width: 15rem;
 }
 </style>
