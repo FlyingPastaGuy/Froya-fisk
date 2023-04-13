@@ -3,7 +3,7 @@
     <div class="bg-white py-5">
         <article class="container">
             <div class="row py-5">
-                <div class="col">
+                <div class="col-12 col-md-5">
                     <img src="@/assets/Images/froya-laks-bacloin.jpg" alt="" srcset="" class="img-fluid border border-0">
                     <p>
                         Dette stykket er å foretrekke til lett
@@ -23,18 +23,11 @@
                         skjæres bort. Anvendes evt. i maki
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-7">
                     <h2>Mid loin</h2>
                     <p>Vekt: 150g</p>
                     <p>Pris: 199kr</p>
-                    <div class="row justify-content-start">
-                        <div class="col-2">
-                            <p>Availability:</p>
-                        </div>
-                        <div class="col-2">
-                            <p>på lager</p>
-                        </div>
-                    </div>
+                    <p>Availability: på lager</p>
                     <p>NB! Bare 30 stk igjen på lager!</p>
                     <div class="input-group">
                         <label class="form-label me-3">Antall</label>

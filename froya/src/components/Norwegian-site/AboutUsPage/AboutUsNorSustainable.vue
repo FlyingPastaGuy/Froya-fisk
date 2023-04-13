@@ -3,7 +3,7 @@
     <div>
         <article class="container">
             <div class="row">
-                <div class="col me-5 mb-5">
+                <div class="col-12 col-md me-5 mb-5">
                     <img src="@/assets/Images/laks-ferdig-pa-band.jpg" alt="" srcset="" class="img-fluid border border-0">
                 </div>
                 <div class="col ms-4">

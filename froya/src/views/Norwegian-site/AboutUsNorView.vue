@@ -2,8 +2,8 @@
 <main-nor-navbar></main-nor-navbar>
     <div>
         <article class="container">
-            <div class="row">
-                <div class="col">
+            <div class="row mb-4">
+                <div class="col-12 col-md ">
                     <h3>Om Frøya</h3>
                     <p>
                         Bærekraft er viktig 
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-md mb-4">
                     <div class="card">
                         <img src="" alt="" class="card-img-top">
                         <div class="card-body">

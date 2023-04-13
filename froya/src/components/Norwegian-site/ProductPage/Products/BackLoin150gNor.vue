@@ -1,9 +1,9 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
     <div class="bg-white py-5">
-        <article class="container ">
+        <article class="container">
             <div class="row py-5">
-                <div class="col">
+                <div class="col-12 col-md-5">
                     <img src="@/assets/Images/froya-laks-bacloin.jpg" alt="" srcset="" class="img-fluid border border-0">
                     <p>
                         Dette stykket er å foretrekke til lett
@@ -23,25 +23,20 @@
                         skjæres bort. Anvendes evt. i maki
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-7">
                     <h2>Back loin</h2>
                     <p>Vekt: 150g</p>
-                    <p>Pris: 199kr</p>
-                    <div class="row justify-content-start">
-                        <div class="col-2">
-                            <p>Availability:</p>
-                        </div>
-                        <div class="col-2">
-                            <p>ikke på lager</p>
-                        </div>
-                    </div>
+                    <p>Pris: 199kr</p>                        
+                    <p>Availability: ikke på lager</p>
                     <p>NB! Det kommer mer på lager!</p>
+
                     <div class="input-group">
                         <label class="form-label me-3">Antall</label>
                         <input type="button" value="-" class="length" @click="reduseProduct()">
                         <input type="text" :placeholder="{amount}" class="length text-center" v-model="amount">
                         <input type="button" value="+" class="length" @click="addProduct()">
                     </div>
+
                     <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="LEGG I HANDELKURV">
                 </div>
             </div>

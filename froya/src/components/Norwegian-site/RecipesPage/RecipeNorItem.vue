@@ -1,6 +1,6 @@
 <template>
-    <article class="col-4 mb-4">
-        <div class="card">
+    <article class="col-12 col-md-5 col-lg-4">
+        <div class="card mb-4">
             <img :src="getProductImage()" alt="" class="card-img-top">
             <div class="card-body">
                 <h3 class="card-title">{{RecipeName}}</h3>

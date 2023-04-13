@@ -1,6 +1,6 @@
 <template>
-    <article class="col-4 mb-4">
-        <div class="card">
+    <article class="col-12 col-md-5 col-lg-4">
+        <div class="card mt-4">
             <h3 class="mb-0">FRØYA {{ProductName}}</h3>
             <img :src="getProductImage()" alt="" class="card-img-top rounded-0">
             <div class="card-body">
