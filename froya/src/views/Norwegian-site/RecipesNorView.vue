@@ -1,7 +1,7 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
-<div>
-    <article class="container py-2">
+<div class="pt-5">
+    <article class="container py-2 pt-5">
         <h2>Oppskrifter med Frøya Laks</h2>
         <p class="text-wrap" style="width: 30rem;">
             oppskrifter og bli inspirert! Frøya Laks passer både til 

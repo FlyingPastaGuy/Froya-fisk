@@ -1,15 +1,15 @@
 <template>
     <article class="col-12 col-md-5 col-lg-4">
-        <div class="card mt-4">
-            <h3 class="mb-0">FRØYA {{ProductName}}</h3>
+        <div class="card mt-4 text-wrap">
+            <h3 class="mb-0 p-3 bg-black">FRØYA {{ProductName}}</h3>
             <img :src="getProductImage()" alt="" class="card-img-top rounded-0">
-            <div class="card-body">
-                <p class="card-text">vekt: {{ProductWeight}}g</p>
-                <p class="card-text">pris: {{ProductPrice}}</p>
-                <p v-if="ProductInventory === true" class="card-text true"> på lager</p>
-                <p v-else class="card-text false"> ikke på lager</p>
+            <div class="card-body text-center font-monospace">
+                <p class="card-text fw-bold">vekt: {{ProductWeight}}g</p>
+                <p class="card-text fw-bold">pris: {{ProductPrice}}</p>
+                <p v-if="ProductInventory === true" class="card-text true"> På lager <i class="bi bi-check"></i></p>
+                <p v-else class="card-text false"> ikke på lager <i class="bi bi-x"></i></p>
                 <router-link :to="`/${ProductLink}`">
-                    <input type="button" value="Kjøp" class="btn">
+                    <input type="button" value="Kjøp" class="btn btn-dark  w-25" style="border-radius: 0%;">
                 </router-link>
             </div>
         </div>

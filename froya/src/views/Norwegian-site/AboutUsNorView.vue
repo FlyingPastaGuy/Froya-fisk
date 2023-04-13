@@ -1,8 +1,8 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
-    <div>
-        <article class="container">
-            <div class="row mb-4">
+    <section class="container py-5">
+        <article class="container ">
+            <div class="row my-4">
                 <div class="col-12 col-md ">
                     <h3>Om Frøya</h3>
                     <p>
@@ -32,8 +32,8 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md mb-4">
-                    <div class="card">
-                        <img src="" alt="" class="card-img-top">
+                    <article class="card h-100 w-75 border-0">
+                        <img src="@/assets/Images/laks-ferdig-pa-band.jpg" alt="" class="card-img-top align-self-start cardImg">
                         <div class="card-body">
                             <h4 class="card-title">
                                 Les mer om Frøyas
@@ -41,10 +41,10 @@
                                 bærekraft
                             </h4>
                             <router-link to="/AboutUsNorSustainable">
-                                <input type="button" value="les mer" class="btn">
+                                <input type="button" value="les mer" class="btn btn-outline-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col">
                     <p>
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </article>
-    </div>
+    </section>
 <nor-footer></nor-footer>
 </template>
 

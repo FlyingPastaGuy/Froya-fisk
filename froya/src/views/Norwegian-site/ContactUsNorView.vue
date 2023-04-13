@@ -1,7 +1,8 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
-    <div class="bg-white">
-        <article class="container py-5 my-5">
+
+    <div class="bg-white py-5 mt-10  ">
+        <article class="container py-5 my-5 ">
             <div class="row">
                 <div class="col">
                     <h3>Frøya Salmon As</h3>
@@ -27,7 +28,7 @@
                     <div>
                         <div class="">
                             <label class="form-label">Navn</label>
-                            <input class="form-control" type="text">
+                            <input class="form-control" type="text" >
                         </div>
                         <div>
                             <label class="form-label">Email</label>
@@ -37,13 +38,14 @@
                             <label class="form-label">Melding</label>
                             <textarea class="form-control"></textarea>
                         </div>
-                        <input type="button" value="Send" class="btn btn-dark mt-4 text-center w-100 py-4 rounded-0">
+                            <input type="button" value="Send" class="btn btn-dark mt-4 text-center w-100 py-4 rounded-0">
                     </div>
                 </div>
             </div>
             
         </article>
     </div>
+
 <nor-footer></nor-footer>
 </template>
 
@@ -52,7 +54,7 @@ import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
 import NorFooter from '@/components/shared/NorFooter.vue'
 
 export default {
-  components: { MainNorNavbar, NorFooter },
+components: { MainNorNavbar, NorFooter },
     setup() {
         
     },
@@ -67,4 +69,8 @@ textarea{
     height: 10rem;
 }
 
+.form-control{
+    background-color: #F7F7F7;
+    border-radius: 0%;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
-    <div class="bg-white py-5">
+    <div class="bg-white py-5 ">
         <article class="container ">
             <div class="row py-5">
                 <div class="col-12 col-md-5 mb-4">

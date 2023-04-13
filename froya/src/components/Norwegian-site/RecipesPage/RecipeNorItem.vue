@@ -1,14 +1,13 @@
 <template>
-    <article class="col-12 col-md-5 col-lg-4">
-        <div class="card mb-4">
-            <img :src="getProductImage()" alt="" class="card-img-top">
-            <div class="card-body">
+    <article class="col">
+        <div class="card mb-4 h-100 border-0">
+            <img :src="getProductImage()" alt="" class="card-img-top align-self-center cardImg">
+            <div class="card-body" style="background-color: #EEEEEE;">
                 <h3 class="card-title">{{RecipeName}}</h3>
-                <p class="card-text">{{RecipeDescription}}</p>
+                <p class="card-text text-dark text-wrap">{{RecipeDescription}}</p>
                 <router-link :to="`/${RecipeLink}`">
-                    <input type="button" value="se oppskrift" class="btn">
+                    <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                 </router-link>
-                
             </div>
         </div>
     </article>

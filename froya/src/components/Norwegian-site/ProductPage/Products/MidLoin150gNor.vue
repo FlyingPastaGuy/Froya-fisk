@@ -31,11 +31,11 @@
                     <p>NB! Bare 30 stk igjen på lager!</p>
                     <div class="input-group">
                         <label class="form-label me-3">Antall</label>
-                        <input type="button" value="-" class="length" @click="reduseProduct()">
-                        <input type="text" :placeholder="{amount}" class="length text-center" v-model="amount">
-                        <input type="button" value="+" class="length" @click="addProduct()">
+                        <input type="button" value="-" class="length btn btn-outline-secondary" @click="reduseProduct()">
+                        <input type="text" :placeholder="{amount}" class="length text-center text-outline-secondary" v-model="amount">
+                        <input type="button" value="+" class="length btn btn-outline-secondary rounded-0" @click="addProduct()">
                     </div>
-                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="LEGG I HANDELKURV">
+                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5 py-3 px-5" value="LEGG I HANDELKURV">
                 </div>
             </div>
         </article>

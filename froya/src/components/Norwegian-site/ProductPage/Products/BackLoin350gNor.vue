@@ -27,7 +27,7 @@
                     <h2>Back loin</h2>
                     <p>Vekt: 350g</p>
                     <p>Pris: 299kr</p>
-                    <p>Availability: på lager</p>
+                    <p>Availability: Ikke lager </p>
                     <p>NB! Bare 30 stk igjen på lager!</p>
                     <div class="input-group">
                         <label class="form-label me-3">Antall</label>

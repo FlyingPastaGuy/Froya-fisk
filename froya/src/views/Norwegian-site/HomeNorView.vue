@@ -2,7 +2,9 @@
         <section class="sectionImg"> 
             <img src="../../assets/Images/grid_0.png" class="headerImg" alt="">
         </section>
+        
 <nor-navbar></nor-navbar>
+
     <section class="container ">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <article class="col">
@@ -17,7 +19,7 @@
                 </div>
             </article>
         </div>
-    </section>
+    </section> 
 
     <section class="container">
         <h3 class="text-wrap text-lg-start px-3" >Frøya sin laks er ikke populær hos sushi-kokkene uten grunn</h3>
@@ -194,9 +196,7 @@ html, body{
     padding: 0;
     max-width: 1400px;
 }
-.body::-webkit-scrollbar{
-    display: none;
-}
+
 
 .sectionImg{
     position: relative;

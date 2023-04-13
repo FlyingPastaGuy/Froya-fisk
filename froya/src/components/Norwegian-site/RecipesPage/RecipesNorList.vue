@@ -1,5 +1,5 @@
 <template>
-    <div class="row">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
         <recipe-nor-item v-for="(recipesNor,i) in RecipesNor" :key="i"
         
         :RecipeImage ="recipesNor.recipeImage"

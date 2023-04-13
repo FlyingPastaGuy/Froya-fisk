@@ -27,7 +27,7 @@
                 <div class="cards-wrapper row row-cols-1 row-cols-md-3 g-4" >
 
                   <article class="col">
-                    <div class="card bg-black border-0 rounded-0">
+                    <div class="card bg-dark border-0 rounded-0">
                         <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
                         <div class="card-body">
                           <router-link to="">
@@ -38,7 +38,7 @@
                   </article>
 
                   <article class="col">
-                    <div class="card bg-black border-0 rounded-0">
+                    <div class="card bg-dark border-0 rounded-0">
                         <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
                         <div class="card-body">
                           <router-link to="">
@@ -49,7 +49,7 @@
                   </article>
 
                   <article class="col">
-                    <div class="card bg-black border-0 rounded-0">
+                    <div class="card bg-dark border-0 rounded-0">
                         <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
                         <div class="card-body">
                           <router-link to="">
@@ -66,7 +66,7 @@
             <div class="cards-wrapper row row-cols-1 row-cols-md-3 g-4">
 
               <article class="col">
-                    <div class="card bg-black border-0 rounded-0">
+                    <div class="card bg-dark border-0 rounded-0">
                         <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
                         <div class="card-body">
                           <router-link to="">
@@ -77,7 +77,7 @@
               </article>
 
               <article class="col">
-                    <div class="card bg-black border-0 rounded-0">
+                    <div class="card bg-dark border-0 rounded-0">
                         <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
                         <div class="card-body">
                           <router-link to="">
@@ -88,9 +88,9 @@
               </article>
 
               <article class="col">
-                    <div class="card text-bg-secondary border-0 rounded-0">
+                    <div class="card bg-dark  text-bg-secondary border-0 rounded-0">
                         <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body bg-white">
+                        <div class="card-body">
                           <router-link to="">
                             <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
@@ -109,11 +109,6 @@
 </template>
 
 
-  
-
-
-
-    
 <style scoped>
 .carousel-control-prev,
 .carousel-control-next {
