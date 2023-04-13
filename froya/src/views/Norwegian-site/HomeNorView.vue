@@ -141,7 +141,7 @@
 
         <article class="col">
             <div class="card h-100 border-0" style="background-color: #151517;">
-                <img src="@/assets/Images/Froya-til-fest-hovedrett-med-rodbete-marinert-laks.jpg" alt="" class="card-img-top align-self-center cardImg">
+                <img src="@/assets/Images/Laksparmesancrust.webp" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
                     <p class="card-text text-dark text-wrap">Ovnsbakt laks med urter & hvitløks-crust, grønn potetmos & urteolje</p>
                     <router-link to="">
@@ -153,7 +153,7 @@
 
         <article class="col">
             <div class="card h-100 border-0" style="background-color: #151517;">
-                <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
+                <img src="@/assets/Images/Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
                     <p class="card-text text-dark text-wrap" >Pannestekt laks med champagne beurre blanc, aspargesbønner og Hasselbäck poteter</p>
                     <router-link to="">

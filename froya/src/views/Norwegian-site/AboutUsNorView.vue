@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-12 col-md mb-4">
                     <article class="card h-100 w-75 border-0">
-                        <img src="@/assets/Images/laks-ferdig-pa-band.jpg" alt="" class="card-img-top align-self-start cardImg">
+                        <img src="@/assets/Images/froya-jenta-jobb.jpg" alt="" class="card-img-top align-self-start cardImg">
                         <div class="card-body">
                             <h4 class="card-title">
                                 Les mer om Frøyas

@@ -74,12 +74,12 @@
                 </div>
 
                 <div class="col">
-                    <div class="row">
+                    <div class="row text-center">
                         <div class="col-3">20 min</div>
                         <div class="col-3">mediun</div>
                         <div class="col-3">4 people</div>
                     </div>
-                    <img class="img-thumbnail" src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="">
+                    <img class="img-thumbnail border-0" src="@/assets/Images/Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg" alt="">
                 </div>
             </div>
 
@@ -205,7 +205,7 @@
                 </div>
             </div>
             <router-link to="/Oppskrifter">
-                <input type="button" class="btn" value="Alle oppskrifter">
+                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="Alle oppskrifter">
             </router-link>
     </article>
 </div>
