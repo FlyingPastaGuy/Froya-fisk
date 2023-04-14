@@ -20,12 +20,12 @@ export default {
 <style>
 
 @font-face {
-  font-family: 'GothemLight';
-  src: url('@/assets/fonts/Gotham-OTF/Gotham-Light.otf') format('otf');
+  font-family: GothemLight;
+  src:  url(./assets/fonts/Gotham-OTF/Gotham-Light.otf) ;
 }
 @font-face {
   font-family: GothemBook;
-  src: url('@/assets/fonts/Gotham-OTF/Gotham-Book.otf') format('otf');
+  src: url(./assets/fonts/Gotham-OTF/Gotham-Book.otf);
 }
 
 
@@ -43,5 +43,6 @@ p{
 
 .btn{
   font-family: GothemLight;
+  font-size: 1.25rem;
 }
 </style>

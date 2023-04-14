@@ -5,7 +5,7 @@
                 <h4>Motta Nyhetsbrev?</h4>
                 <p>vær den første til å motta nye oppskrifter og andre oppdateringer</p>
                 <div class="input-group ">
-                    <input type="email" placeholder="Email Address" class="form-control align-self-start" style="border-radius: 0%; width: 10rem;">
+                    <input type="email" placeholder="Email Address" class="form-control align-self-start" style="border-radius: 0%; width: 10rem; font-size: 1.25rem; ">
                     <input type="button" value="Sign Up" class="btn btn-outline-secondary ms-3" style="border-radius: 0%;">
                 </div>
             </div>
