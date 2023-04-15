@@ -12,7 +12,7 @@
             <hr class="my-5" style="color:#D1D1D1;">
         </article>
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-3">
                 <h5>Frøya</h5>
                             <ul>
                                 <li>
@@ -37,7 +37,7 @@
                                 </li>
                             </ul>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-3">
                 <h5>Resources</h5>
                             <ul>
                                 <li>
@@ -62,7 +62,7 @@
                                 </li>
                             </ul>
             </div>
-                <div class="col">
+                <div class="col-12 col-md-3">
                     <h5>Product</h5>
                             <ul>
                                 <li>
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="row justify-content-evenly">
-                <div class="col-md-4"> 
+                <div class="col-12 col-md-4"> 
                     <p>ALL RIGHT RESERVED INSULA AS <i class="bi bi-c-circle"></i> 2023</p> 
                 </div>
                 <div class="col offset-md-5"> 
