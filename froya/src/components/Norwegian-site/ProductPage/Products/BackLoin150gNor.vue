@@ -37,11 +37,35 @@
                         <input type="button" value="+" class="length" @click="addProduct()">
                     </div>
 
-                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="LEGG I HANDELKURV">
+                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="LEGG I HANDELKURV" data-bs-toggle="modal" data-bs-target="#BackLoin150GModal">
                 </div>
             </div>
         </article>
-        
+        <div class="modal fade" id="BackLoin150GModal" tabindex="-1" aria-labelledby="BackLoin150GModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="BackLoin150GModalLabel">FRØYA mid loin</h1>
+                    <input type="button" value="" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </div>
+                <div class="modal-body row">
+                    <div class="col">
+                        <img src="@/assets/Images/froya-laks-bacloin.jpg" alt="" srcset="" class="img-fluid border border-0">
+                    </div>
+                    <div class="col">
+                        <p>
+                            Dette stykket er å foretrekke til lett varmebehandling;
+                            Ultrafersk (pre-rigor) laks; dypskinnet og med 2-3cm. brunmuskel.
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input value="FORTSETT Å HANDLE" type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <input value="GÅ TIL KASSEN" type="button" class="btn btn-primary">
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
 <nor-footer></nor-footer>
 </template>
