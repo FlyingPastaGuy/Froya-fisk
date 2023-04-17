@@ -47,6 +47,11 @@
                             <p class="nav-link text-light mt-5">Kontakt oss</p>
                         </router-link>  
                     </li>
+                    <li class="nav-item">
+                        <router-link to="/Home" class="Links">
+                            <p class="nav-link text-light mt-5">english site</p>
+                        </router-link>  
+                    </li>                   
                 </ul>
         </div>
     </div>
