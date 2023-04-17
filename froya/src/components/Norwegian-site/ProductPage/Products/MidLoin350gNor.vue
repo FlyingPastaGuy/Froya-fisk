@@ -4,7 +4,7 @@
         <article class="container ">
             <div class="row py-5">
                 <div class="col-12 col-md-5 mb-4">
-                    <img src="@/assets/Images/froya-laks-bacloin.jpg" alt="" srcset="" class="img-fluid border border-0">
+                    <img src="@/assets/Images/Froya-Hel-Back-loin_1N.png" alt="" srcset="" class="img-fluid border border-0">
                     <p>
                         Dette stykket er å foretrekke til lett
                         varmebehandling;
@@ -31,24 +31,26 @@
                     <p>NB! Bare 30 stk igjen på lager!</p>
                     <div class="input-group">
                         <label class="form-label me-3">Antall</label>
-                        <input type="button" value="-" class="length" @click="reduseProduct()">
-                        <input type="text" :placeholder="{amount}" class="length text-center" v-model="amount">
-                        <input type="button" value="+" class="length" @click="addProduct()">
+                        <input type="button" value="-" class="length btn btn-outline-secondary" @click="reduseProduct()">
+                        <input type="text" :placeholder="{amount}" class="length text-center text-outline-secondary" v-model="amount">
+                        <input type="button" value="+" class="length btn btn-outline-secondary rounded-0" @click="addProduct()">
                     </div>
                     <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="LEGG I HANDELKURV" data-bs-toggle="modal" data-bs-target="#MidLoin350GModal">
                 </div>
             </div>
         </article>
+
+ 
         <div class="modal fade" id="MidLoin350GModal" tabindex="-1" aria-labelledby="MidLoin350GModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header bg-black">
                     <h1 class="modal-title fs-5" id="MidLoin350GModalLabel">FRØYA mid loin</h1>
-                    <input type="button" value="" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <input type="button" value="" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close">
                 </div>
                 <div class="modal-body row">
                     <div class="col">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" alt="" srcset="" class="img-fluid border border-0">
+                        <img src="@/assets/Images/Froya-Halv-Back-loin_1N.png" alt="" srcset="" class="img-fluid border border-0">
                     </div>
                     <div class="col">
                         <p>
@@ -58,8 +60,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <input value="FORTSETT Å HANDLE" type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                    <input value="GÅ TIL KASSEN" type="button" class="btn btn-primary">
+                    <input value="FORTSETT Å HANDLE" type="button" class="btn btn-outline-secondary rounded-0" data-bs-dismiss="modal">
+                    <input value="GÅ TIL KASSEN" type="button" class="btn btn-dark rounded-0">
                 </div>
                 </div>
             </div>

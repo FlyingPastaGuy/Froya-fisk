@@ -26,9 +26,9 @@
                 <div class="cards-wrapper row row-cols-1 row-cols-md-3 g-4" >
 
                   <article class="col">
-                    <div class="card bg-dark border-0 rounded-0">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body">
+                    <div class="card bg-black border-0 rounded-0">
+                        <img src="@/assets/Images/Froya-Hel-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
+                        <div class="card-body bg-dark">
                           <router-link to="">
                             <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
@@ -37,9 +37,9 @@
                   </article>
 
                   <article class="col">
-                    <div class="card bg-dark border-0 rounded-0">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body">
+                    <div class="card bg-black border-0 rounded-0">
+                        <img src="@/assets/Images/Froya-Halv-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 img-fluid"  alt="">
+                        <div class="card-body bg-dark">
                           <router-link to="">
                             <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
@@ -48,11 +48,11 @@
                   </article>
 
                   <article class="col">
-                    <div class="card bg-dark border-0 rounded-0">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body">
+                    <div class="card bg-black border-0 rounded-0">
+                        <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 " alt="">
+                        <div class="card-body bg-dark">
                           <router-link to="">
-                            <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
+                            <input type="button" value="Back Mid Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
                         </div>
                     </div>
@@ -65,9 +65,9 @@
             <div class="cards-wrapper row row-cols-1 row-cols-md-3 g-4">
 
               <article class="col">
-                    <div class="card bg-dark border-0 rounded-0">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body">
+                    <div class="card bg-black border-0 rounded-0">
+                        <img src="@/assets/Images/Froya-Hel-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0" alt="">
+                        <div class="card-body bg-dark">
                           <router-link to="">
                             <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
@@ -76,9 +76,9 @@
               </article>
 
               <article class="col">
-                    <div class="card bg-dark border-0 rounded-0">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body">
+                    <div class="card bg-black border-0 rounded-0">
+                        <img src="@/assets/Images/Froya-Halv-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0" alt="">
+                        <div class="card-body bg-dark">
                           <router-link to="">
                             <input type="button" value="Mid Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
@@ -87,11 +87,11 @@
               </article>
 
               <article class="col">
-                    <div class="card bg-dark  text-bg-secondary border-0 rounded-0">
-                        <img src="@/assets/Images/froya-laks-bacloin.jpg" class="card-img-top align-self-start cardImg rounded-0" alt="">
-                        <div class="card-body">
+                    <div class="card bg-black text-bg-secondary border-0 rounded-0">
+                        <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0" alt="">
+                        <div class="card-body bg-dark">
                           <router-link to="">
-                            <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
+                            <input type="button" value="Back Mid Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
                         </div>
                     </div>
@@ -125,6 +125,9 @@
   .cards-wrapper {
     display: flex;
   }
+}
+img{
+  height: 10rem;
 }
 
 

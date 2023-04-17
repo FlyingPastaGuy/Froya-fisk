@@ -7,7 +7,7 @@
                         <thead class="text-center">
                             <tr class="bg-color">
                                 <th>
-                                    <p >produkt</p> 
+                                    <p>produkt</p> 
                                 </th>
                                 <th> 
                                     <p>pris</p> 
@@ -26,9 +26,9 @@
                                 <td class="pe-4"><p>{{product.ProductPrice}}</p></td>
                                 <td>
                                     <div class="input-group">
-                                        <input type="button" value="+" class="length" @click="addproduct(i)">
-                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center">
-                                        <input type="button" value="-" class="length" @click="reduseproduct(i)">
+                                        <input type="button" value="+" class="length btn-outline-secondary" @click="addproduct(i)">
+                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text-outline-secondary">
+                                        <input type="button" value="-" class="length btn-outline-secondary rounded-0" @click="reduseproduct(i)">
                                     </div>
                                     
                                 </td>

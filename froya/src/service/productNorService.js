@@ -4,7 +4,7 @@ const productNorService = (function(){
     const productNor = ref([
         {
             ProductName: "back Loin",
-            ProductImage: "froya-laks-bacloin.jpg",
+            ProductImage: "Froya-Hel-Back-loin_1N.png",
             ProductWeight: 350,
             ProductPrice: 299,
             ProductAmount:1,
@@ -13,7 +13,7 @@ const productNorService = (function(){
         },
         {
             ProductName: "mid Loin",
-            ProductImage: "froya-laks-bacloin.jpg",
+            ProductImage: "Froya-Hel-Mid-loin_1N.png",
             ProductWeight: 350,
             ProductPrice: 299,
             ProductAmount:1,
@@ -22,7 +22,7 @@ const productNorService = (function(){
         },
         {
             ProductName: "mid Loin",
-            ProductImage: "froys-laks-midloin-kopi.jpg",
+            ProductImage: "Froya-Hel-Mid-loin_1N.png",
             ProductWeight: 150,
             ProductPrice: 199,
             ProductAmount:1,
@@ -31,7 +31,7 @@ const productNorService = (function(){
         },
         {
             ProductName: "back Loin",
-            ProductImage: "froys-laks-midloin-kopi.jpg",
+            ProductImage: "Froya-Halv-Back-loin_1N.png",
             ProductWeight: 150,
             ProductPrice: 199,
             ProductAmount:1,
