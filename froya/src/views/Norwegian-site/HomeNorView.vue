@@ -78,7 +78,7 @@
     <div class="row mb-3 justify-content-start bearekraftigRow">
         <div class="col-6 flex-fill">
             <h1 style="margin-bottom: 3rem;">OPPLEV BÆREKRAFTIG LAKS FRA FRØYA</h1>
-            <h2 style="width: 40rem;">
+            <h2 style="max-width: 40rem;">
                 Vi hos Frøya Laks er stolte av å være en ledende produsent av bærekraftig oppdrettet laks. 
                 Vår filosofi er å respektere naturens grenser, ta vare på våre lokale samfunn og samtidig produsere laks av høyeste kvalitet.
                 Sunn og deilig på en gang. Vi tror på at det beste måltidet er også det sunneste,
