@@ -9,18 +9,17 @@
       </p>
     </div>
 
-    <div id="carouselControls" class="carousel slide row mx-auto my-auto">
+    <div id="carouselControls" class="carousel slide row mx-auto my-auto" data-bs-ride="carousel" data-bs-interval="false">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
 
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>  
       
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-
       
       <div class="carousel-inner">
 

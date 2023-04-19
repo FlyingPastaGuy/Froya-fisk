@@ -1,6 +1,8 @@
 <template class="body">
-        <section class="sectionImg"> 
-            <img src="../../assets/Images/grid_0.png" class="headerImg" alt="">
+        <section class="video"> 
+            <video class="w-100" autoplay loop muted>
+                <source src="@/assets/video/pexels-cottonbro-studio.mp4" type="video/mp4" />
+            </video>
         </section>
         
 <nor-navbar></nor-navbar>
@@ -11,7 +13,7 @@
                 <div class="card bg-transparent border-0 mb-5">
                     <div class="card-body">
                         <h1 class="card-titlight">Fersk norsk laks</h1>
-                        <p class="card-text">Fra kalde og klare farvann langs kysten på Frøya.</p>
+                        <p class="card-text">Fra det kalde og klare vannet utenfor Frøya på Trøndelagskysten.</p>
                         <router-link to="">
                             <input type="button" value="Les mer om våre produkter" class="btn btn-outline-light" style="border-radius: 0%;">
                         </router-link>
@@ -198,7 +200,7 @@ html, body{
 }
 
 
-.sectionImg{
+.video{
     position: relative;
 }
 .headerImg{

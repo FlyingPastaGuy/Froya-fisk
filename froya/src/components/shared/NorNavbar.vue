@@ -1,20 +1,24 @@
 //TIL HOVEDSIDEN
 <template>
-<nav class="navbar navbar-expand-lg shadow-5-strong sticky-top p-0 my-4">
-    <div class="container-fluid">
-        <router-link to="/" class="Links logo">
-            <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
-        </router-link>
-        <div class="align-self-end">
-            <button @click="canvasOn= true" class="Links btn" type="button">
-                <h2 class="MenyBtn">Meny</h2>
-            </button>    
-            <router-link to="/handlekruv" class="Links handlevogn">
-                <img src="../../assets/Images/Vector.png" alt="" srcset=""> 
-            </router-link>
-        </div>
-        
-        
+<nav class="navbar navbar-expand-xxl shadow-5-strong sticky-top p-0 my-4">
+    <div class="container-fluid row g-0 fixed-top pt-5 d-flex">
+
+            <div class="col-xxl-6 col-lg-4 mx-5 flex-grow-1">
+                <router-link to="/" class="Links navbar-brand ">
+                    <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
+                </router-link>
+            </div>
+            <div class="col-3 col-sm-1  mx-auto">
+                <button @click="canvasOn= true" class="Links btn" type="button">
+                    <h2 class="MenyBtn">Meny</h2>
+                </button> 
+            </div>
+            <div class="col-3 col-sm-1 mx-auto">
+                <router-link to="/handlekruv" class="Links align-items-center">
+                        <h2><i class="bi bi-bag"></i></h2>
+                </router-link>
+            </div>
+
     </div>
 </nav>
 
@@ -29,22 +33,22 @@
                 <ul class="navbar-nav ">
                     <li class="nav-item ">
                         <router-link to="/Om-oss" class="Links ">
-                            <p class="nav-link text-light mt-5 ">Om-oss</p>
+                            <p class="nav-link text-light mt-4 ">Om-oss</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/Produkter" class="Links">
-                            <p class="nav-link text-light mt-5">Produkter</p>
+                            <p class="nav-link text-light mt-4">Produkter</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/Oppskrifter" class="Links">
-                            <p class="nav-link text-light mt-5">Oppskrifter</p>
+                            <p class="nav-link text-light mt-4">Oppskrifter</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/Kontakt-oss" class="Links">
-                            <p class="nav-link text-light mt-5">Kontakt oss</p>
+                            <p class="nav-link text-light mt-4">Kontakt oss</p>
                         </router-link>  
                     </li>
                 </ul>
@@ -69,35 +73,12 @@ export default {
 
 <style scoped>
 
-.navbar{
-    background-color: #090909;
-    overflow: hidden;
 
-}
 .Links{
     text-decoration:none;
     position: relative;
 }
 
-.MenyBtn{
-    color: white;
-    font-size: 2rem;
-}
-.btn{
-    position: fixed;
-    top: 2%;
-    left: 89%;
-}
-.logo{
-    position: fixed;
-    top: 2%;
-    right: 85%;
-}
-.handlevogn{
-    position: fixed;
-    top: 3.5%;
-    left: 95%;
-}
 .offcanvas{
     background-color: #090909;;
     height: 100%;

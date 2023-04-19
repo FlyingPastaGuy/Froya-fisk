@@ -12,7 +12,7 @@
             <hr class="my-5" style="color:#D1D1D1;">
         </article>
         <div class="row">
-            <div class="col-12 col-md-3">
+            <div class="col-8 col-md-4">
                 <h5>Frøya</h5>
                             <ul>
                                 <li>
@@ -35,9 +35,22 @@
                                         <a>KONTAKT</a>
                                     </router-link>
                                 </li>
+
+                            <h5 class="link-underline-light">Sosiale medier</h5>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <i class="bi bi-instagram fs-4 "></i>
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="bi bi-facebook fs-4 "></i>
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="bi bi-youtube fs-4 "></i>
+                                    </div>
+                                </div>
                             </ul>
             </div>
-            <div class="col-12 col-md-3">
+            <div class="col-8 col-md-4">
                 <h5>Resources</h5>
                             <ul>
                                 <li>
@@ -62,7 +75,7 @@
                                 </li>
                             </ul>
             </div>
-                <div class="col-12 col-md-3">
+                <div class="col-8 col-md-4">
                     <h5>Product</h5>
                             <ul>
                                 <li>
@@ -91,20 +104,6 @@
                                     </router-link>
                                 </li>
                             </ul>
-                </div>
-                <div class="col">
-                    <h5>Sosiale medier</h5>
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="bi bi-instagram fs-4 "></i>
-                            </div>
-                            <div class="col-2">
-                                <i class="bi bi-facebook fs-4 "></i>
-                            </div>
-                            <div class="col-2">
-                                <i class="bi bi-youtube fs-4 "></i>
-                            </div>
-                        </div>
                 </div>
             </div>
             <div class="row justify-content-evenly">
@@ -146,6 +145,10 @@ a,i{
 }
 .center{
     left: 32rem;
+}
+
+h5{
+    text-decoration: underline;
 }
 </style>
 
