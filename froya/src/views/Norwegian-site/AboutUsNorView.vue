@@ -12,7 +12,7 @@
 
                         <p>
                             Frøya Laks er et norsk oppdrettsanlegg som produserer laks på øya
-                            Frøya i Trøndelag. Bedriften har gokus på bærekraftig produksjon av
+                            Frøya i Trøndelag. Bedriften har fokus på bærekraftig produksjon av
                             laks, og har implementert flere tiltak for å redusere miljøpåvirkningen
                             fra sin virksomhet.
                         </p>
