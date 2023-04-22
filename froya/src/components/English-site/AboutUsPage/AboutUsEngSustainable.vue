@@ -1,51 +1,35 @@
 <template>
 
-    <section class="container py-5">
-        <article class="container ">
-            <div class="row my-4">
-                <div class="col-12 col-md ">
-                    <h3>About Frøya</h3>
-                    <p>
-                        sustainability is important for Frøya
+    <div>
+        <article class="container">
+            <div class="row">
+                <div class="col-12 col-md me-5 mb-5">
+                    <img src="@/assets/Images/laks-ferdig-pa-band.jpg" alt="" srcset="" class="img-fluid border border-0">
+                </div>
+                <div class="col ms-4">
+                    <h2>SUSTAINABILITY</h2>
+                    <p class="text-wrap" style="width:10rem">
+                        Sustainability is
+                        important to Frøya
                     </p>
-
-                        <p>
+                    <p class="mt-5">
                             Frøya salmon is a norwegian breeding facility that produces salmon at the island
                             Frøya in Trøndelag. The compeny has focus at sustainabil production of
                             salmon, and has implemented measures to reduce their environmental impact.
-                        </p>
-
-                        <p>
+                    </p>
+                    <p class="mt-5">
                             An example is how Frøya salmon has worked actively to reduce consumption av
                             salmon, by developing a more effective fortyper. This leads
                             to less emission of harmful nutrients in the sea and reduce the risk of 
                             algal blooms. Frøya has also sett fouces on reducing the use of
                             medications in the breeding fecility, and only use legemilder medicine when it is
                             needed to protect the fish walfare.
-                        </p>
-                </div>
-                <div class="col">
-                    <img src="@/assets/Images/laks-ferdig-pa-band.jpg" alt="" srcset="" class="img-fluid border border-0">
+                    </p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md mb-4">
-                    <article class="card h-100 w-75 border-0">
-                        <img src="@/assets/Images/froya-jenta-jobb.jpg" alt="" class="card-img-top align-self-start cardImg">
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                Read more about Frøyas
-                                neasures for 
-                                sustainability
-                            </h4>
-                            <router-link to="/AboutUsNorSustainable">
-                                <input type="button" value="READ MORE" class="btn btn-outline-dark" style="border-radius: 0%;">
-                            </router-link>
-                        </div>
-                    </article>
-                </div>
+            <div class="row mt-4">
                 <div class="col">
-                    <p>
+                    <p class="text-wrap" style="width:35rem">
                         Frøya salmon do also have an open and transparent approach to their compeny,
                         and communicates evenly with their neighbours, local authorities and society in
                         general about their activities and environmental measures. Frøya also works to  
@@ -60,15 +44,9 @@
                         social responsibility.
                     </p>
                 </div>
+                <div class="col"></div>
             </div>
         </article>
-    </section>
+    </div>
 
 </template>
-
-
-<style scoped>
-h4{
-    color: black;
-}
-</style>
