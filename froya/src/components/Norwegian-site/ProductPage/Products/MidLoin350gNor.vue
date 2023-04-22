@@ -66,6 +66,7 @@
                 </div>
             </div>
         </div>
+        <product-carusel></product-carusel>
     </div>
 <nor-footer></nor-footer>
 </template>
@@ -73,9 +74,10 @@
 <script>
 import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
 import NorFooter from '@/components/shared/NorFooter.vue'
+import ProductCarusel from '../ProductCarusel.vue'
 import { ref } from 'vue'
 export default {
-  components: { MainNorNavbar, NorFooter },
+  components: { MainNorNavbar, NorFooter, ProductCarusel  },
     setup() {
         
         let amount = ref(1)

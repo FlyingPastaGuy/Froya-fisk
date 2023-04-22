@@ -51,9 +51,12 @@
                             <p class="nav-link text-light mt-4">Kontakt oss</p>
                         </router-link>  
                     </li>
-                    <li class="nav-item">
-                        <router-link to="/Home" class="Links">
-                            <p class="nav-link text-light mt-4">english site</p>
+                    <li class="nav-item btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <router-link to="/Home" class="Links nav-link">
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                                <label class="btn btn-outline-light text-dark mt-4" for="btnradio1" style="border-radius: 0%; font-size: 2rem;">Norwegian</label>
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                                <label class="btn btn-outline-dark text-light mt-4" for="btnradio2" style="border-radius: 0%; font-size: 2rem;">English</label>
                         </router-link>  
                     </li>                   
                 </ul>
