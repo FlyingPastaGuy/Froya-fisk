@@ -29,6 +29,9 @@ import ContactUsEngView from '../views/English-site/ContactUsEngView.vue';
 import ProductsEngView from '../views/English-site/ProductsEngView.vue';
 import RecipesEngView from '../views/English-site/RecipesEngView.vue';
 
+//English AboutUs
+import AboutUsEngSustainable from '@/components/English-site/AboutUsPage/AboutUsEngSustainable.vue'
+
 const routes = [
 ///Norwagian views/pages
     {
@@ -130,6 +133,12 @@ const routes = [
         path: '/Recipes',
         name: 'Recipes',
         component: RecipesEngView
+    },
+    //English AboutUs Sustainable
+    {
+        path:'/AboutUsEngSustainable',
+        name: 'AboutUsEngSustainable',
+        component: AboutUsEngSustainable
     }
 ];
 

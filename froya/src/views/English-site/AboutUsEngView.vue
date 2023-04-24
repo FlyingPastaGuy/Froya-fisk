@@ -38,7 +38,7 @@
                                 neasures for 
                                 sustainability
                             </h4>
-                            <router-link to="/AboutUsNorSustainable">
+                            <router-link to="/AboutUsEngSustainable">
                                 <input type="button" value="READ MORE" class="btn btn-outline-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>

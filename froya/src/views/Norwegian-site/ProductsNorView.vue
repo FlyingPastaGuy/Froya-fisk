@@ -1,18 +1,18 @@
 <template>
     <main-nor-navbar></main-nor-navbar>
-<section>
-    <div >
-        <article class="container py-5 ">
-            <h2>VÅRE PRODUKTER</h2>
-            <p class="text-wrap" style="width: 30rem;">
-                Det er ingen hemmelighet at omgivelsene er viktige.
-                Havmiljøet rundt øya Frøya danner et ideelt grunnlag for marint
-                mangefold og er blant de ypperste i verden.
-            </p>
-            <products-nor-list></products-nor-list>
-        </article>
-    </div>
-</section>
+    <section>
+        <div >
+            <article class="container py-5 ">
+                <h2>VÅRE PRODUKTER</h2>
+                <p class="text-wrap" style="width: 30rem;">
+                    Det er ingen hemmelighet at omgivelsene er viktige.
+                    Havmiljøet rundt øya Frøya danner et ideelt grunnlag for marint
+                    mangefold og er blant de ypperste i verden.
+                </p>
+                <products-nor-list></products-nor-list>
+            </article>
+        </div>
+    </section>
     
     <nor-footer></nor-footer>
 </template>
