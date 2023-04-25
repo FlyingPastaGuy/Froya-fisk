@@ -5,7 +5,7 @@ const recipesNorService = (function(){
         {
         recipeImage: "Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg",
         recipeName: "Ginmarinert Frøya laks",
-        recipeDescription: "Marinert laks med agruk, gin og rips",
+        recipeDescription: "Marinert laks med agurk, gin og rips",
         recipeLink: "GinMarinatedSalmonNor",
         },
         {
@@ -16,14 +16,14 @@ const recipesNorService = (function(){
         },
         {
             recipeImage: "Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg",
-            recipeName: "Laks og champgne beurre blanc",
-            recipeDescription: "Pannestekt laks med champgne beurre blanc, aspargesbønner og hasselback poteter",
+            recipeName: "Laks og champagne beurre blanc",
+            recipeDescription: "Pannestekt laks med champagne beurre blanc, aspargesbønner og hasselback poteter",
             recipeLink: "SalmonAndChampagneBeurreBlancNor",
         },
         {
             recipeImage: "Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg",
             recipeName: "Ginmarinert Frøya laks",
-            recipeDescription: "Marinert laks med agruk, gin og rips",
+            recipeDescription: "Marinert laks med agurk, gin og rips",
             recipeLink: "GinMarinatedSalmonNor",
         },
         {
@@ -34,8 +34,8 @@ const recipesNorService = (function(){
         },
         {
             recipeImage: "Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg",
-            recipeName: "Laks og champgne beurre blanc",
-            recipeDescription: "Pannestekt laks med champgne beurre blanc, aspargesbønner og hasselback poteter",
+            recipeName: "Laks og champagne beurre blanc",
+            recipeDescription: "Pannestekt laks med champagne beurre blanc, aspargesbønner og hasselback poteter",
             recipeLink: "SalmonAndChampagneBeurreBlancNor",
         }
     ]);

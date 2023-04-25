@@ -28,9 +28,22 @@ import AboutUsEngView from '../views/English-site/AboutUsEngView.vue';
 import ContactUsEngView from '../views/English-site/ContactUsEngView.vue';
 import ProductsEngView from '../views/English-site/ProductsEngView.vue';
 import RecipesEngView from '../views/English-site/RecipesEngView.vue';
+import PayoutEngView from '@/views/English-site/PayoutEngView.vue' 
 
 //English AboutUs
 import AboutUsEngSustainable from '@/components/English-site/AboutUsPage/AboutUsEngSustainable.vue'
+
+//English Products
+import BackLoin350gEng from '@/components/English-site/ProductPage/Products/BackLoin350gEng.vue'
+import MidLoin150gEng from '@/components/English-site/ProductPage/Products/MidLoin150gEng.vue'
+import MidLoin350gEng from '@/components/English-site/ProductPage/Products/MidLoin350gEng.vue'
+import BackLoin150gEng from '@/components/English-site/ProductPage/Products/BackLoin150gEng.vue'
+
+//English Recipes
+import GinMarinatedSalmonEng from '@/components/English-site/RecipesPage/Recipes/GinMarinatedSalmonEng.vue';
+import SalmonWithGarlicAndParmesanCrustEng from '@/components/English-site/RecipesPage/Recipes/SalmonWithGarlicAndParmesanCrustEng.vue';
+import SalmonAndChampagneBeurreBlancEng from '@/components/English-site/RecipesPage/Recipes/SalmonAndChampagneBeurreBlancEng.vue';
+
 
 const routes = [
 ///Norwagian views/pages
@@ -134,11 +147,53 @@ const routes = [
         name: 'Recipes',
         component: RecipesEngView
     },
+    {
+        path: '/Checkout',
+        name: 'Checkout',
+        component:PayoutEngView
+    },
     //English AboutUs Sustainable
     {
         path:'/AboutUsEngSustainable',
         name: 'AboutUsEngSustainable',
         component: AboutUsEngSustainable
+    },
+    //English Products
+    {
+        path:'/BackLoin350gEng',
+        name:'BackLoin350gEng',
+        component:BackLoin350gEng
+    },
+    {
+        path:'/BackLoin150gEng',
+        name:'BackLoin150gEng',
+        component:BackLoin150gEng
+    },
+    {
+        path:'/MidLoin150gEng',
+        name:'MidLoin150gEng',
+        component: MidLoin150gEng
+    },
+    {
+        path:'/MidLoin350gEng',
+        name:'MidLoin350gEng',
+        component: MidLoin350gEng
+    },
+    //English Recipes
+    {
+        path:'/GinMarinatedSalmonEng',
+        name:'GinMarinatedSalmonEng',
+        component:GinMarinatedSalmonEng
+    },
+    {
+        path:'/SalmonWithGarlicAndParmesanCrustEng',
+        name:'SalmonWithGarlicAndParmesanCrustEng',
+        component:SalmonWithGarlicAndParmesanCrustEng
+    },
+    {
+        path:'/SalmonAndChampagneBeurreBlancEng',
+        name:'SalmonAndChampagneBeurreBlancEng',
+        component:SalmonAndChampagneBeurreBlancEng
     }
 ];
 

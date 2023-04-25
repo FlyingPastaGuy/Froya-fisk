@@ -1,5 +1,5 @@
 <template>
-<main-nor-navbar></main-nor-navbar>
+
 <div class="bg-white py-3">
     <article class="container py-5 my-5">
         <h2 class="text-black">Ginmarinert Frøya laks</h2>
@@ -99,23 +99,9 @@
             </router-link>
     </article>
 </div>
-<nor-footer></nor-footer>
+
 </template>
 
-
-<script>
-import NorFooter from '@/components/shared/NorFooter.vue'
-import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
-
-export default {
-    setup() {
-        
-    },components: {
-        NorFooter,
-        MainNorNavbar
-    }
-}
-</script>
 
 
 <style scoped>
