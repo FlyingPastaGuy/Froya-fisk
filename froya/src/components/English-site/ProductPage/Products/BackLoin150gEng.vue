@@ -1,5 +1,5 @@
 <template>
-        <div class="bg-white py-5">
+    <div class="bg-white py-5">
         <article class="container">
             <div class="row py-5">
                 <div class="col-12 col-md-5">
@@ -36,7 +36,7 @@
                         <input type="button" value="+" class="length btn btn-outline-secondary rounded-0" @click="addProduct()">
                     </div>
 
-                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="LEGG I HANDELKURV" data-bs-toggle="modal" data-bs-target="#BackLoin150GModal">
+                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="ADD TO CART" data-bs-toggle="modal" data-bs-target="#BackLoin150GModal">
                 </div>
             </div>
         </article>
