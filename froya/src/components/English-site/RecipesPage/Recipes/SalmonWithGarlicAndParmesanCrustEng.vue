@@ -68,7 +68,7 @@
                 <div class="col">
                     <div class="row text-center">
                         <div class="col-3">45 min</div>
-                        <div class="col-3">mediun</div>
+                        <div class="col-3">medium</div>
                         <div class="col-3"> 8 people</div>
                     </div>
                     <img class="img-thumbnail border-0" src="@/assets/Images/Laksparmesancrust.webp" alt="">
@@ -144,7 +144,7 @@
                 </div>
             </div>
             <router-link to="/Oppskrifter">
-                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="Alle oppskrifter">
+                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="All recipes">
             </router-link>
     </article>
 </div>

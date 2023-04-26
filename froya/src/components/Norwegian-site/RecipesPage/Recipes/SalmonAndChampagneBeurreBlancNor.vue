@@ -76,7 +76,7 @@
                 <div class="col">
                     <div class="row text-center">
                         <div class="col-3">20 min</div>
-                        <div class="col-3">mediun</div>
+                        <div class="col-3">medium</div>
                         <div class="col-3">4 people</div>
                     </div>
                     <img class="img-thumbnail border-0" src="@/assets/Images/Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg" alt="">
