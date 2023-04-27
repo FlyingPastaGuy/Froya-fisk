@@ -66,17 +66,18 @@
                 </div>
             </div>
         </div>
-        <product-carusel></product-carusel>
+        <product-carusel-eng></product-carusel-eng>
     </div>
 
 </template>
 
 <script>
 
-import ProductCarusel from '@/components/Norwegian-site/ProductPage/ProductCarusel.vue'
+
 import { ref } from 'vue'
+import ProductCaruselEng from '../ProductCaruselEng.vue'
 export default {
-    components: { ProductCarusel  },
+    components: {ProductCaruselEng   },
     setup() {
         
         let amount = ref(1)
