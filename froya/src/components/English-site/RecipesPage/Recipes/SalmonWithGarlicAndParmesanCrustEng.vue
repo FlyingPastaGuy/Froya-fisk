@@ -1,67 +1,67 @@
 <template>
-<main-nor-navbar></main-nor-navbar>
+
 <div class="bg-white">
     <article class="container py-5 my-5">
-        <h2 class="text-black">Frøya laks med hvitløk & permesan-crust</h2>
-        <p>Grønn potetmøs & urteolje</p>
+        <h2 class="text-black">Frøya salmon with garlic & parmesan-crust</h2>
+        <p>Green mashed potatoes & herbal oil</p>
             <div class="row">
                 <div class="col">
-                    <h6>ingredienser</h6>
-                    <p>650 g Frøya midloin (1 stor pakke)</p>
+                    <h6>ingredients</h6>
+                    <p>650 g Frøya midloin (1 big package)</p>
                     <h6>Parmesan-topping</h6>
                     <ul>
                         <li>
-                            <p>50g revet parmesan</p>
+                            <p>50g grated parmesan</p>
                         </li>
                         <li>
-                            <p>50g brødrasp av lyst brød</p>
+                            <p>50g breadcrumbs of light bread</p>
                         </li>
                         <li>
-                            <p>2 fedd hvitløk</p>
+                            <p>2 clove of garlic</p>
                         </li>
                         <li>
-                            <p>1 potte gressløk</p>
+                            <p>1 pot chives</p>
                         </li>
                         <li>
-                            <p>1 potte basilikum</p>
+                            <p>1 pot of basil</p>
                         </li>
                         <li>
-                            <p>3 ss smeltet smør</p>
+                            <p>3 tbs melted butter</p>
                         </li>
                         <li>
-                            <p>1 neve hasselnøtter</p>
+                            <p>1 handful of hazelnuts</p>
                         </li>
                         <li>
                             <p>
-                                Flaksalt / nykvernet pepper
+                                Flake salt / freshly ground pepper
                             </p>
                         </li>
                     </ul>
-                    <h6>potet & ertemos</h6>
+                    <h6>potato and pea mash</h6>
                     <ul>
                         <li>
-                            <p>10 kokefaste poteter</p>
+                            <p>10 hard-boiled potatoes</p>
                         </li>
                         <li>
-                            <p>1 pose erter</p>
+                            <p>1 bag of peas</p>
                         </li>
                         <li>
-                            <p>2dl melk</p>
+                            <p>2dl milk</p>
                         </li>
                         <li>
-                            <p>3 ss meierismør</p>
+                            <p>3 tbs dairy butter</p>
                         </li>
                         <li>
-                            <p>1/4 revet muskatnøtt</p>
+                            <p>1/4 grated nutmeg</p>
                         </li>
                         <li>
-                            <p>1 sitron</p>
+                            <p>1 lemon</p>
                         </li>
                         <li>
-                            <p>1pk brokkolini</p>
+                            <p>1pk broccolini</p>
                         </li>
                         <li>
-                            <p>Flaksalt / pepper</p>
+                            <p>Flake salt / pepper</p>
                         </li>
                     </ul>
                 </div>
@@ -76,92 +76,90 @@
             </div>
             <div class="row mt-5">
                 <div class="col">
-                    <h6>Fremgangsmåte</h6>
+                    <h6>Approach</h6>
                     <p class="text-wrap" style="width:24 rem">
-                        La laksen ligge i romtemperatur 20min før steking.
-                        Sett ovnen på 180 grader.
+                        Leave the salmon at room temperature for 20 minutes before frying.
+                        Set the oven to 180 degrees.
                     </p>
                     <ol>
                         <li>
-                            <p>Skjær fisken i to emner og legg i en ildfast form.</p>
+                            <p>Cut the fish into two blanks and place in an ovenproof dish.</p>
                         </li>
                         <li>
                             <p>
-                                Ha brødrasp, revet parmesan, finhakket hvitløk, salt og
-                                pepper i en bolle. finhakk en neve basilikumblader og
-                                gressløk. Hell over smeltet smør.
+                                Add breadcrumbs, grated parmesan, finely chopped garlic, salt and
+                                pepper in a bowl. finely chop a handful of basil leaves and
+                                chives. Pour over melted butter.
                             </p>
                         </li>
                         <li>
-                            <p>Bland alt godt sammen og fordel over laksen.</p>
+                            <p>Mix everything well and spread over the salmon.</p>
                         </li>
                         <li>
                             <p>
-                                La fisken steke i ovnen i ca 10min. Tiden avhenger av
-                                tykkelsen på fiskestykket og hvor rosa kjerne du ønsker.
-                                Ta gjerne en stikkprøve underveis.
+                                Let the fish roast in the oven for about 10 minutes. The time depends
+                                the thickness of the piece of fish and how pink the core you want.
+                                Feel free to take a random sample along the way.
                             </p>
                         </li>
                         <li>
-                            <p>sett på grillen siste minuttet for å få gyllen topping</p>
+                            <p>put on the grill for the last minute to get a golden topping</p>
                         </li>
                     </ol>
                 </div>
                 <div class="col">
-                    <h6>Potet & ertemos</h6>
+                    <h6>Potato and pea mash</h6>
                     <ol>
                         <li>
                             <p> 
-                                Skrell poteter. Del i to og kok i lettsaltet vann i ca. 10 minutter til de
-                                er møre
+                                Peel potatoes. Cut in half and cook in lightly salted water for approx. 10 minutes to them
+                                are tender.
                             </p>
                         </li>
                         <li>
                             <p>
-                                Tilsett ertene de siste 2-3 minuttene. Hell av vannet. Tilsett smør,
-                                saften og revet skall fra en halv sitron og mos til en grov stappe.
+                                Add the peas in the last 2-3 minutes. Pour off the water. Add butter,
+                                the juice and grated rind from half a lemon and mash to a coarse stuffing.
                             </p>
                         </li>
                         <li>
                             <p>
-                                smak til med salt og pepper.
+                                Season with salt and pepper.
                             </p>
                         </li>
                         <li>
-                            Grovhakk hasselnøtter og strø over.
+                            <p>Coarsely chop hazelnuts and sprinkle over.</p>
                         </li>
                         <li>
-                            <p>Ha brokkolini i fosskokende lettsaltet vann i ca 2min</p>
+                            <p>Place broccolini in boiling lightly salted water for approx 2min</p>
                         </li>
                     </ol>
-                    <h6>urteolje</h6>
+                    <h6>herbal oil</h6>
                     <p>
-                        Ha resten av basilikum og gressløk i en blander sammen med olivenolje,
-                        litt sitronsaft og salt. kjør til en jevn blanding,
-                        server laksen med brokkolini, potetmos, urte-olje og gjerne en Grønn
-                        salat om du ønsker.
+                        Put the rest of the basil and chives in a blender together with olive oil,
+                        a little lemon juice and salt. drive to a smooth mixture,
+                        serve the salmon with broccolini, mashed potatoes, herb oil and preferably a Green
+                        salad if you wish.
                     </p>
                 </div>
             </div>
-            <router-link to="/Oppskrifter">
+            <router-link to="/Recipes">
                 <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="All recipes">
             </router-link>
     </article>
 </div>
-<nor-footer></nor-footer>
+
 </template>
 
 
 <script>
-import NorFooter from '@/components/shared/NorFooter.vue'
-import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
+
 
 export default {
     setup() {
         
     },components: {
-        NorFooter,
-        MainNorNavbar
+
     }
 }
 </script>

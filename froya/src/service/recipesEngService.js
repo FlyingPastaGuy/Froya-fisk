@@ -11,7 +11,7 @@ const recipesEngService = (function(){
         {
             recipeImage: "Laksparmesancrust.webp",
             recipeName: "Frøya salmon with garlic & parmesan-crust",
-            recipeDescription: "green mashed potatoes & herbal oil",
+            recipeDescription: "Green mashed potatoes & herbal oil",
             recipeLink: "SalmonWithGarlicAndParmesanCrustEng",
         },
         {
