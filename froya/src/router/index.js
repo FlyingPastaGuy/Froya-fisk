@@ -60,7 +60,7 @@ const routes = [
         component: RecipesNorView
     },
     {
-        path: '/handlekruv',
+        path: '/handlekurv',
         name: 'handlekurv',
         component: PayoutNorView
     },

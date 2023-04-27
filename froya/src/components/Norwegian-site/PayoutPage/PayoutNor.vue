@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white">
+    <div class="bg-white py-5">
         <article class="container">
             <div class="row">
                 <div class="col mt-3">
@@ -7,33 +7,33 @@
                         <thead class="text-center">
                             <tr class="bg-color">
                                 <th>
-                                    <p>produkt</p> 
+                                    <p>Produkt</p> 
                                 </th>
                                 <th> 
-                                    <p>pris</p> 
+                                    <p>Pris</p> 
                                 </th>
                                 <th> 
-                                    <p>antall</p> 
+                                    <p>Antall</p> 
                                 </th>
-                                <th class="pe-5"> 
-                                    <p>subtotal</p> 
+                                <th > 
+                                    <p>Subtotal</p> 
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr v-for="(product,i) in producktArray" :key="i">
-                                <td class="pe-4"><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
-                                <td class="pe-4"><p>{{product.ProductPrice}}</p></td>
+                                <td class="px-4"><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
+                                <td class="px-4"><p>{{product.ProductPrice}}</p></td>
                                 <td>
-                                    <div class="input-group">
-                                        <input type="button" value="+" class="length btn-outline-secondary" @click="addproduct(i)">
-                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text-outline-secondary">
-                                        <input type="button" value="-" class="length btn-outline-secondary rounded-0" @click="reduseproduct(i)">
+                                    <div class="input-group mb-3 justify-content-center">
+                                        <input type="button" value="-" class="length btn btn-outline-secondary rounded-0 w-25 " @click="reduseproduct(i)">
+                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text text-outline-secondary w-25">
+                                        <input type="button" value="+" class="length btn btn-outline-secondary rounded-0 w-25" @click="addproduct(i)">
                                     </div>
                                     
                                 </td>
-                                <td class="ps-4"><p>{{product.ProductSubtotal}}</p></td>
-                                <td><input type="button" value="" class="btn-close" @click="deleteProduct(i)"></td>
+                                <td class="px-4"><p>{{product.ProductSubtotal}}</p></td>
+                                <td class="px-4"><input type="button" value="" class="btn-close" @click="deleteProduct(i)"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -150,7 +150,7 @@ const getProductImage = (e) => {
             try{
                 ProductImage = require(`@/assets/Images/${producktArray[e].ProductImg}`);
             } catch{
-                ProductImage = require(`@/assets/Images/froys-laks-midloin-kopi.jpg`);
+                ProductImage = require(`@/assets/Images/Froya-Hel-Mid-loin_1N.png`);
             }
             return ProductImage;
         }

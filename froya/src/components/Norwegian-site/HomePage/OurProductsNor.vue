@@ -19,7 +19,6 @@
       <span class="visually-hidden">Next</span>
     </button>
 
-      
       <div class="carousel-inner">
 
             <div class="carousel-item active ">
@@ -42,17 +41,6 @@
                         <div class="card-body bg-dark">
                           <router-link to="">
                             <input type="button" value="Back Loin" class="btn btn-outline-light" style="border-radius: 0%;">
-                          </router-link>
-                        </div>
-                    </div>
-                  </article>
-
-                  <article class="col">
-                    <div class="card bg-black border-0 rounded-0">
-                        <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 " alt="">
-                        <div class="card-body bg-dark">
-                          <router-link to="">
-                            <input type="button" value="Back Mid Loin" class="btn btn-outline-light" style="border-radius: 0%;">
                           </router-link>
                         </div>
                     </div>

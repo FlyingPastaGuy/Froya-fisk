@@ -14,7 +14,7 @@
                 </button> 
             </div>
             <div class="col-3 col-sm-1 mx-auto ">
-                <router-link to="/handlekruv" class="Links align-items-center">
+                <router-link to="/handlekurv" class="Links align-items-center">
                         <h2><i class="bi bi-bag"></i></h2>
                 </router-link>
             </div>
@@ -52,12 +52,14 @@
                         </router-link>  
                     </li>
                     <li class="nav-item btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <router-link to="/Home" class="Links nav-link">
+                        <router-link to="/" class="Links nav-link">
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                                 <label class="btn btn-outline-light text-dark mt-4" for="btnradio1" style="border-radius: 0%; font-size: 2rem;">Norwegian</label>
+                        </router-link>  
+                        <router-link to="/Home" class="Links nav-link">
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                                 <label class="btn btn-outline-dark text-light mt-4" for="btnradio2" style="border-radius: 0%; font-size: 2rem;">English</label>
-                        </router-link>  
+                        </router-link>
                     </li>                   
                 </ul>
         </div>

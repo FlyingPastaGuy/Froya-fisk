@@ -61,7 +61,9 @@
                 </div>
                 <div class="modal-footer">
                     <input value="FORTSETT Å HANDLE" type="button" class="btn btn-outline-secondary rounded-0" data-bs-dismiss="modal">
-                    <input value="GÅ TIL KASSEN" type="button" class="btn btn-dark rounded-0">
+                    <router-link to="/handlekurv" >
+                        <input value="GÅ TIL KASSEN" type="button" class="btn btn-dark rounded-0" data-bs-dismiss="modal" aria-label="Close">
+                    </router-link>
                 </div>
                 </div>
             </div>
