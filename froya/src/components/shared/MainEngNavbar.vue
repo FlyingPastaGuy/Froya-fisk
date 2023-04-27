@@ -1,6 +1,6 @@
-//TIL HOVEDSIDEN
+//IKKE TIL HOVEDSIDE
 <template>
-<nav class="navbar navbar-expand-xxl shadow-5-strong sticky-top p-0 my-4">
+<nav class="navbar navbar-expand-xxl shadow-5-strong sticky-top p-0 mt-5 overflow-auto">
     <div class="container-fluid row g-0 fixed-top pt-5 d-flex">
 
             <div class="col-xxl-6 col-lg-4 mx-5 flex-grow-1">
@@ -8,18 +8,19 @@
                     <img src="../../assets/logo/Froya_logo_hvit.png" alt="" srcset="">
                 </router-link>
             </div>
-            <div class="col-3 col-sm-1  mx-auto">
+            <div class="col-3 col-sm-1 mx-auto">
                 <button @click="canvasOn= true" class="Links btn" type="button">
                     <h2 class="MenyBtn">Menu</h2>
                 </button> 
             </div>
-            <div class="col-3 col-sm-1 mx-auto">
+            <div class="col-3 col-sm-1 mx-auto ">
                 <router-link to="/Checkout" class="Links align-items-center">
                         <h2><i class="bi bi-bag"></i></h2>
                 </router-link>
             </div>
     </div>
 </nav>
+
 
 
 
@@ -59,7 +60,7 @@
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
                                 <label class="btn btn-outline-light text-dark mt-4" for="btnradio2" style="border-radius: 0%; font-size: 2rem;">English</label>
                         </router-link>
-                    </li>                             
+                    </li>                  
                 </ul>
         </div>
     </div>
@@ -82,11 +83,22 @@ export default {
 
 <style scoped>
 
+.navbar{
+    background-color: #090909;
+    height: 11rem;
+    max-height: 12rem;
 
+}
+.container-fluid{
+    background-color: #090909;
+    height: 8rem;
+    max-height: 10rem;
+}
 .Links{
     text-decoration:none;
     position: relative;
 }
+
 
 .offcanvas{
     background-color: #090909;;
@@ -98,5 +110,4 @@ p{
 }
 
 </style>
-
 

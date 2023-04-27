@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white">
+    <div class="bg-white py-5">
         <article class="container">
             <div class="row">
                 <div class="col mt-3">
@@ -7,49 +7,49 @@
                         <thead class="text-center">
                             <tr class="bg-color">
                                 <th>
-                                    <p>products</p> 
+                                    <p>Product</p> 
                                 </th>
                                 <th> 
-                                    <p>price</p> 
+                                    <p>Price</p> 
                                 </th>
                                 <th> 
-                                    <p>amount</p> 
+                                    <p>Amount</p> 
                                 </th>
-                                <th class="pe-5"> 
-                                    <p>subtotal</p> 
+                                <th > 
+                                    <p>Subtotal</p> 
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr v-for="(product,i) in producktArray" :key="i">
-                                <td class="pe-4"><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
-                                <td class="pe-4"><p>{{product.ProductPrice}}</p></td>
+                                <td class="px-4"><img :src="getProductImage(i)" alt="" class="card-img-top rounded-0"></td>
+                                <td class="px-4"><p>{{product.ProductPrice}}</p></td>
                                 <td>
-                                    <div class="input-group">
-                                        <input type="button" value="+" class="length btn-outline-secondary" @click="addproduct(i)">
-                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text-outline-secondary">
-                                        <input type="button" value="-" class="length btn-outline-secondary rounded-0" @click="reduseproduct(i)">
+                                    <div class="input-group mb-3 justify-content-center">
+                                        <input type="button" value="-" class="length btn btn-outline-secondary rounded-0 w-25 " @click="reduseproduct(i)">
+                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text text-outline-secondary w-25">
+                                        <input type="button" value="+" class="length btn btn-outline-secondary rounded-0 w-25" @click="addproduct(i)">
                                     </div>
                                     
                                 </td>
-                                <td class="ps-4"><p>{{product.ProductSubtotal}}</p></td>
-                                <td><input type="button" value="" class="btn-close" @click="deleteProduct(i)"></td>
+                                <td class="px-4"><p>{{product.ProductSubtotal}}</p></td>
+                                <td class="px-4"><input type="button" value="" class="btn-close" @click="deleteProduct(i)"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col mt-5">
                     <div class="w-50">
-                        <h3>your order summarized </h3>
+                        <h3>Your order summary</h3>
                         <div>
                             <p>total</p>
                             <p>{{productTotal}}</p>
                             <hr>
-                            <p>price before shipping</p>
+                            <p>Price before shipping</p>
                             <p>{{productTotal}}</p>
                         </div>
                         <p class="underline">Congratulations, you have free shipping!</p>
-                        <input type="button" value="PURCHASE" class="btn btn-dark rounded-0 text-center mx-auto d-block">
+                        <input type="button" value="Pay" class="btn btn-dark rounded-0 text-center mx-auto d-block">
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@ const reduseproduct = (e) => {
     men spør om du er sikker på at du hvil gjøre det
 */
 const deleteProduct = (e) => {
-    if(confirm("er du sikker på at du ønsker å fjerne dette produktet") == true){
+    if(confirm("are you sure you want to remove this product") == true){
         producktArray.shift(e)
     }else{
         return false
@@ -150,7 +150,7 @@ const getProductImage = (e) => {
             try{
                 ProductImage = require(`@/assets/Images/${producktArray[e].ProductImg}`);
             } catch{
-                ProductImage = require(`@/assets/Images/froys-laks-midloin-kopi.jpg`);
+                ProductImage = require(`@/assets/Images/Froya-Hel-Mid-loin_1N.png`);
             }
             return ProductImage;
         }

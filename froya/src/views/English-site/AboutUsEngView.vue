@@ -1,5 +1,5 @@
 <template>
-
+<main-eng-navbar></main-eng-navbar>
     <section class="container py-5">
         <article class="container ">
             <div class="row my-4">
@@ -63,9 +63,23 @@
             </div>
         </article>
     </section>
-
+<eng-footer></eng-footer>
 </template>
+<script>
+import MainEngNavbar from '../../components/shared/MainEngNavbar.vue';
+import EngFooter from '../../components/shared/EngFooter.vue';
 
+export default {
+    setup() {
+        
+    },
+    components:{
+        MainEngNavbar,
+        EngFooter,
+        
+    }
+}
+</script>
 
 <style scoped>
 h4{

@@ -1,5 +1,5 @@
 <template>
-
+<main-eng-navbar></main-eng-navbar>
 <div class="pt-5">
     <article class="container py-2 pt-5">
         <h2>Recipes with Frøya Salmon</h2>
@@ -11,12 +11,14 @@
         <recipe-eng-list></recipe-eng-list>
     </article>
 </div>
-
+<eng-footer></eng-footer>
 </template>
 
 
 <script>
 import RecipeEngList from '@/components/English-site/RecipesPage/RecipeEngList.vue'
+import MainEngNavbar from '../../components/shared/MainEngNavbar.vue';
+import EngFooter from '../../components/shared/EngFooter.vue';
 
 export default {
     setup() {
@@ -24,7 +26,9 @@ export default {
     },
     components: 
     {
-        RecipeEngList 
+        RecipeEngList, 
+        MainEngNavbar,
+        EngFooter,
 
     }
 }

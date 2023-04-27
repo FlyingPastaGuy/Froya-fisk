@@ -1,4 +1,5 @@
 <template>
+    <main-eng-navbar></main-eng-navbar>
     <section>
         <div >
             <article class="container py-5 ">
@@ -12,18 +13,27 @@
             </article>
         </div>
     </section>
+    <eng-footer></eng-footer>
 </template>
-
+    
 
 <script>
 import ProductEngList from '@/components/English-site/ProductPage/ProductEngList.vue'
+import MainEngNavbar from '../../components/shared/MainEngNavbar.vue';
+import EngFooter from '../../components/shared/EngFooter.vue';
+
 export default {
-  components: { ProductEngList },
+    components: { 
+        ProductEngList,
+        MainEngNavbar,
+        EngFooter,
+    },
     setup() {
         
     },
 }
 </script>
+
 
 <style scoped>
 article,div{

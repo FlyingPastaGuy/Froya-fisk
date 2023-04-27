@@ -33,7 +33,7 @@
                 <ul class="navbar-nav ">
                     <li class="nav-item ">
                         <router-link to="/Om-oss" class="Links ">
-                            <p class="nav-link text-light mt-4">Om-oss</p>
+                            <p class="nav-link text-light mt-4">Om oss</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
