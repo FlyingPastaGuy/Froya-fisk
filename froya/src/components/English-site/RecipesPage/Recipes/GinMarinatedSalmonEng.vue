@@ -1,46 +1,45 @@
 <template>
-<main-nor-navbar></main-nor-navbar>
+
 <div class="bg-white py-3">
     <article class="container py-5 my-5">
-        <h2 class="text-black">Ginmarinert Frøya laks</h2>
-        <p>Marinert laks med agurk, gin og rips</p>
+        <h2 class="text-black">Ginmarinert Frøya salmon</h2>
+        <p>Marinated salmon with cucumber, gin og Red currant</p>
             <div class="row">
                 <div class="col">
-                    <h6>ingredienser</h6>
-                    <p>Til 4 personer trenger du:</p>
+                    <h6>ingredients</h6>
+                    <p>for 4 persons you needs:</p>
                     <ul>
                         <li>
-                            <p>70 gram sukker</p>
+                            <p>70 gram sugar</p>
                         </li>
                         <li>
                             <p>70 gram salt</p>
                         </li>
                         <li>
-                            <p>1 ts revet sitronskall</p>
+                            <p>1 tsp torn lemon peel </p>
                         </li>
                         <li>
-                            <p>1/2 ts hel sort pepper kunst i morter</p>
+                            <p>1/2 tsp whole black pepper art in mortar</p>
                         </li>
                         <li>
-                            <p>1 ts enebær knust i morter</p>
+                            <p>1 tsp juniper berries crushed in a mortar</p>
                         </li>
                         <li>
-                            <p>1/2 ts rosepepper knust i morter</p>
+                            <p>1/2 tsp rose pepper crushed in a mortar</p>
                         </li>
                         <li>
-                            <p>70 ml gin (klassisk gin)</p>
+                            <p>70 ml gin (classic gin)</p>
                         </li>
                         <li>
                             <p>300 gram Frøya backloin </p>
                         </li>
                         <li>
-                            <p> 1 agurk</p>
+                            <p> 1 cucumber</p>
                         </li>
                     </ul>
                     <p>
-                        Til servering Rips, mynteblader og 
-                        babyleaf salat (finn en som også har 
-                        noen røde blader), olivenolje
+                        to serve Currants, mint leaves and babyleaf lettuce
+                        (find one that also has some red leaves), olive oil
                     </p>
                 </div>
                 <div class="col">
@@ -56,66 +55,52 @@
                 <div class="col">
                     <h6>Fremgangsmåte</h6>
                     <p>
-                        Bland alle krydderne, salt og sukker med
-                        gin. Legg halvparten av blandingen i en
-                        glassform. Legg fisken oppå og ta deretter
-                        resten av blandingen på fisken. Dekk formen
-                        godt med plast og sett det i kjøleskapet 
-                        over natten. Når du skal tilbrede fisken til
-                        servering
+                        mix all the spices, salt and sugar together
+                        with gin. put half of the mixture in one
+                        glass form. place the fish on top and then remove the
+                        rest of the mixture on the fish. cover the mold
+                        well with pastic and put it in the fridge 
+                        over night. to when you have to cook the fish for serving
                     </p>
                 </div>
                 <div class="col">
                     <ol>
                         <li>
                             <p> 
-                            skyll fisken, men bevar marinaden. Tørk fisken med et 
-                            kjøkkenpapir
+                            rinse the fish, but keep marinade. Dry the fish with 
+                            kitchen paper
                             </p>
                         </li>
                         <li>
                             <p>
-                                Høvle agurk med en ostehøvel legg på kjøkkenpapir slik 
-                                at fukten trekkes opp 
+                                Grate the cucumber with a cheese grater and place on kitchen paper 
+                                that the moisture is drawn up 
                             </p>
                         </li>
                         <li>
                             <p>
-                                Skjær fisken tynt i lengder
+                                Thinly slice the fish lengthwise
                             </p>
                         </li>
                         <li>
                             <p>
-                                Legg den opp på tallerken med rips, agurk salat, rise 
-                                olje over. Ta ett drag med pepperkvern over før 
-                                servering
+                                Put it on a plate with currants, 
+                                cucumber salad, rice oil on top. 
+                                Add a pinch of pepper before 
+                                serving
                             </p>
                         </li>
                     </ol>
                 </div>
             </div>
-            <router-link to="/Oppskrifter">
-                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="Alle oppskrifter">
+            <router-link to="/Recipes">
+                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="All recipes">
             </router-link>
     </article>
 </div>
-<nor-footer></nor-footer>
+
 </template>
 
-
-<script>
-import NorFooter from '@/components/shared/NorFooter.vue'
-import MainNorNavbar from '@/components/shared/MainNorNavbar.vue'
-
-export default {
-    setup() {
-        
-    },components: {
-        NorFooter,
-        MainNorNavbar
-    }
-}
-</script>
 
 
 <style scoped>

@@ -144,7 +144,7 @@
                 </div>
             </div>
             <router-link to="/Oppskrifter">
-                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="Alle oppskrifter">
+                <input type="button" class="btn btn-outline-dark" style="border-radius: 0%;" value="All recipes">
             </router-link>
     </article>
 </div>

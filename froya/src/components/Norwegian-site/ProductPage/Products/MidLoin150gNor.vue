@@ -40,7 +40,6 @@
             </div>
         </article>
 
-     
         <div class="modal fade" id="MidLoin350GModal" tabindex="-1" aria-labelledby="MidLoin350GModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
