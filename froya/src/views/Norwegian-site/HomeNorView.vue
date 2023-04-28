@@ -79,14 +79,14 @@
 <section class="container" style="margin-bottom: 15rem; margin-top: 10rem;">
     <div class="row mb-3 justify-content-start bearekraftigRow">
         <div class="col-6 flex-fill">
-            <h1 style="margin-bottom: 3rem;">OPPLEV BÆREKRAFTIG LAKS FRA FRØYA</h1>
-            <h2 style="max-width: 40rem;">
+            <h2 style="margin-bottom: 3rem;">OPPLEV BÆREKRAFTIG LAKS FRA FRØYA</h2>
+            <p style="max-width: 40rem;">
                 Vi hos Frøya Laks er stolte av å være en ledende produsent av bærekraftig oppdrettet laks. 
                 Vår filosofi er å respektere naturens grenser, ta vare på våre lokale samfunn og samtidig produsere laks av høyeste kvalitet.
                 Sunn og deilig på en gang. Vi tror på at det beste måltidet er også det sunneste,
                 og vår bærekraftige laks fra Frøya gir deg nettopp det - en smakfull og sunn opplevelse
                 Med en produksjonsprosess som er omsorgsfull og ansvarlig, kan du nyte vår laks med god samvittighet.
-            </h2>
+            </p>
         </div>
         <div class="col-6 clearfix center-block" >
             <img src="@/assets/Images/laks-ferdig-pa-band.jpg" class="img-fluid bearekraftImg" alt="">

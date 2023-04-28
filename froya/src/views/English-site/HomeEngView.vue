@@ -81,15 +81,15 @@
 <section class="container" style="margin-bottom: 15rem; margin-top: 10rem;">
 <div class="row mb-3 justify-content-start bearekraftigRow">
     <div class="col-6 flex-fill">
-        <h1 style="margin-bottom: 3rem;">EXPERIENCE SUSTAINABLE SALMON FROM FRØYA</h1>
-        <h2 style="max-width: 40rem;">
+        <h2 style="margin-bottom: 3rem;">EXPERIENCE SUSTAINABLE SALMON FROM FRØYA</h2>
+        <p style="max-width: 40rem;">
             We at Frøya Laks are proud to be a leading producer of sustainably farmed salmon. 
             Our philosophy is to respect the boundaries of nature, take care of our local communities 
             and at the same time produce salmon of the highest quality.
             Healthy and delicious at the same time. We believe that the best meal is also the healthiest,
             and our sustainable salmon from Frøya gives you just that - a tasty and healthy experience
             With a production process that is caring and responsible, you can enjoy our salmon with a clear conscience.
-        </h2>
+        </p>
     </div>
     <div class="col-6 clearfix center-block" >
         <img src="@/assets/Images/laks-ferdig-pa-band.jpg" class="img-fluid bearekraftImg" alt="">
