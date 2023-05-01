@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <h1 class="card-titlight">Fersk norsk laks</h1>
                         <p class="card-text">Fra det kalde og klare vannet utenfor Frøya på Trøndelagskysten.</p>
-                        <router-link to="">
+                        <router-link to="/Produkter">
                             <input type="button" value="Les mer om våre produkter" class="btn btn-outline-light" style="border-radius: 0%;">
                         </router-link>
                     </div>
@@ -35,7 +35,7 @@
                         <p class="card-text">Fra laksen er sprell levende til den er pakket og klar for rask nedkjøling
                             går det normalt kun to timer. Slik er du garantert laks av den fineste kvaliteten og med
                             den beste smaken når du velger Frøya laks</p>
-                        <router-link to="" class="pt-4">
+                        <router-link to="/Om-oss" class="pt-4">
                             <input type="button" value="Les mer om Frøya" class="btn btn-outline-light" style="border-radius: 0%;">
                         </router-link>
                     </div>
@@ -71,7 +71,6 @@
                 </div>
             </article>
         </div>
-
     </section>
 
 <our-products-nor></our-products-nor>
@@ -93,7 +92,7 @@
         </div>
     </div>
 
-    <router-link to="">
+    <router-link to="/AboutUsNorSustainable">
         <input type="button" value="Les mer om bærekraft" class="btn btn-outline-light" style="border-radius: 0%;">
     </router-link> 
 </section>

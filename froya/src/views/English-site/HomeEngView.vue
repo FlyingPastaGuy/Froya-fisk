@@ -14,7 +14,7 @@
                 <div class="card-body">
                     <h1 class="card-titlight">Fresh Norwegian salmon</h1>
                     <p class="card-text">From the cold and clear water off Frøya on the Trøndelag coast.</p>
-                    <router-link to="">
+                    <router-link to="/Products">
                         <input type="button" value="Read more about our products" class="btn btn-outline-light" style="border-radius: 0%;">
                     </router-link>
                 </div>
@@ -36,7 +36,7 @@
                         it normally only takes two hours. This way you are guaranteed salmon of the finest quality
                         and with the best taste when you choose Frøya salmon
                     </p>
-                    <router-link to="" class="pt-4">
+                    <router-link to="/About-us" class="pt-4">
                         <input type="button" value="Read more about Frøya" class="btn btn-outline-light" style="border-radius: 0%;">
                     </router-link>
                 </div>
@@ -96,7 +96,7 @@
     </div>
 </div>
 
-<router-link to="">
+<router-link to="/AboutUsEngSustainable">
     <input type="button" value="Read more about sustainability" class="btn btn-outline-light" style="border-radius: 0%;">
 </router-link> 
 </section>
