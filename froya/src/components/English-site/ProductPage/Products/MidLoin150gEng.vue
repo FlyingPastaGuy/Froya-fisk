@@ -1,4 +1,5 @@
 <template>
+<main-eng-navbar></main-eng-navbar>
     <div class="bg-white py-5">
         <article class="container">
             <div class="row py-5">
@@ -66,14 +67,17 @@
         </div>
         <product-carusel-eng></product-carusel-eng>
     </div>
+<eng-footer></eng-footer>
 </template>
 
 <script>
 
 import { ref } from 'vue'
 import ProductCaruselEng from '../ProductCaruselEng.vue'
+import MainEngNavbar from '@/components/shared/MainEngNavbar.vue'
+import EngFooter from '@/components/shared/EngFooter.vue'
 export default {
-    components: {ProductCaruselEng   },
+    components: {ProductCaruselEng, MainEngNavbar, EngFooter   },
     setup() {
         
         let amount = ref(1)

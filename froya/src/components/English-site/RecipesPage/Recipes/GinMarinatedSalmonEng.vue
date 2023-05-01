@@ -1,5 +1,5 @@
 <template>
-
+<main-eng-navbar></main-eng-navbar>
 <div class="bg-white py-3">
     <article class="container py-5 my-5">
         <h2 class="text-black">Ginmarinert Frøya salmon</h2>
@@ -98,10 +98,19 @@
             </router-link>
     </article>
 </div>
-
+<eng-footer></eng-footer>
 </template>
 
-
+<script>
+import MainEngNavbar from '@/components/shared/MainEngNavbar.vue'
+import EngFooter from '@/components/shared/EngFooter.vue'
+export default {
+  components: { MainEngNavbar, EngFooter },
+    setup() {
+        
+    },
+}
+</script>
 
 <style scoped>
 p{

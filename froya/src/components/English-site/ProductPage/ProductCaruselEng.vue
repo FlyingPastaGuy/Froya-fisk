@@ -65,7 +65,7 @@
                                 <p class="card-text fw-bold">weight: 150g</p>
                                 <p class="card-text fw-bold">price: 199kr</p>
                                 <p  class="card-text true"> På In stock <i class="bi bi-check"></i></p>
-                            <router-link to="">
+                            <router-link to="/BackLoin150gEng">
                                 <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
@@ -80,7 +80,7 @@
                                 <p class="card-text fw-bold">weight: 350g</p>
                                 <p class="card-text fw-bold">price: 299kr</p>
                                 <p  class="card-text true"> In stock <i class="bi bi-check"></i></p>
-                            <router-link to="">
+                            <router-link to="/MidLoin350gEng">
                                 <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>

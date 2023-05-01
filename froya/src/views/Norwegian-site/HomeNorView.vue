@@ -133,7 +133,7 @@
                 <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body " style="background-color: white;">
                     <p class="card-text text-dark text-wrap" >Ginmarinert Frøya laks Marinert laks med agurk, gin og rips</p>
-                    <router-link to="">
+                    <router-link to="/GinMarinatedSalmonNor">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
                 </div>
@@ -145,7 +145,7 @@
                 <img src="@/assets/Images/Laksparmesancrust.webp" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
                     <p class="card-text text-dark text-wrap">Ovnsbakt laks med urter & hvitløks-crust, grønn potetmos & urteolje</p>
-                    <router-link to="">
+                    <router-link to="/SalmonWithGarlicAndParmesanCrustNor">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
                 </div>
@@ -157,7 +157,7 @@
                 <img src="@/assets/Images/Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg" alt="" class="card-img-top align-self-center cardImg">
                 <div class="card-body" style="background-color: white;">
                     <p class="card-text text-dark text-wrap" >Pannestekt laks med champagne beurre blanc, aspargesbønner og Hasselbäck poteter</p>
-                    <router-link to="">
+                    <router-link to="/SalmonAndChampagneBeurreBlancNor">
                         <input type="button" value="se oppskrift" class="btn btn-outline-dark" style="border-radius: 0%;">
                     </router-link>
                 </div>

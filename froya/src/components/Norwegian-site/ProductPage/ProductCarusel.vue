@@ -34,7 +34,7 @@
                                 <p class="card-text fw-bold">vekt: 350g</p>
                                 <p class="card-text fw-bold">pris: 299kr</p>
                                 <p  class="card-text false"> ikke på lager <i class="bi bi-x"></i></p>
-                            <router-link to="">
+                            <router-link to="/BackLoin350gNor">
                                 <input type="button" value="Back Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
@@ -43,14 +43,14 @@
                     
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
-                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Mid Loin</h4>
+                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Loin</h4>
                         <img src="@/assets/Images/Froya-Halv-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">vekt: 150g</p>
                                 <p class="card-text fw-bold">pris: 199kr </p>
                                 <p  class="card-text true"> På lager <i class="bi bi-check"></i></p>
-                            <router-link to="">
-                                <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
+                            <router-link to="/BackLoin150gNor">
+                                <input type="button" value="Back Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </div>
@@ -58,14 +58,14 @@
         
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
-                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Mid Loin</h4>
+                        <h4 class="mb-0 p-3 bg-black">FRØYA Mid Loin</h4>
                         <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">vekt: 150g</p>
                                 <p class="card-text fw-bold">pris: 199kr</p>
                                 <p  class="card-text true"> På lager <i class="bi bi-check"></i></p>
-                            <router-link to="">
-                                <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
+                            <router-link to="/MidLoin150gNor">
+                                <input type="button" value=" Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </div>
@@ -73,14 +73,14 @@
 
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
-                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Mid Loin</h4>
+                        <h4 class="mb-0 p-3 bg-black">FRØYA Mid Loin</h4>
                         <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">vekt: 350g</p>
                                 <p class="card-text fw-bold">pris: 299kr</p>
                                 <p  class="card-text true"> På lager <i class="bi bi-check"></i></p>
-                            <router-link to="">
-                                <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
+                            <router-link to="/MidLoin350gNor">
+                                <input type="button" value="Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                                 <p class="card-text fw-bold">vekt: 350g</p>
                                 <p class="card-text fw-bold">pris: 299kr</p>
                                 <p  class="card-text false"> ikke på lager <i class="bi bi-x"></i></p>
-                            <router-link to="">
+                            <router-link to="/BackLoin350gNor">
                                 <input type="button" value="Back Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
@@ -109,14 +109,14 @@
 
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
-                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Mid Loin </h4>
+                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Loin </h4>
                         <img src="@/assets/Images/Froya-Halv-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">vekt: 150g</p>
                                 <p class="card-text fw-bold">pris: 199kr</p>
                                 <p  class="card-text true"> På lager <i class="bi bi-check"></i></p>
-                            <router-link to="">
-                                <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
+                            <router-link to="/BackLoin150gNor">
+                                <input type="button" value="Back Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </div>
@@ -124,14 +124,14 @@
 
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
-                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Mid Loin</h4>
+                        <h4 class="mb-0 p-3 bg-black">FRØYA Mid Loin</h4>
                         <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">vekt: 150g</p>
                                 <p class="card-text fw-bold">pris: 199kr</p>
                                 <p  class="card-text true"> På lager <i class="bi bi-check"></i></p>
-                            <router-link to="">
-                                <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
+                            <router-link to="/MidLoin150gNor">
+                                <input type="button" value="Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </div>
@@ -139,14 +139,14 @@
 
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
-                        <h4 class="mb-0 p-3 bg-black">FRØYA Back Mid Loin</h4>
+                        <h4 class="mb-0 p-3 bg-black">FRØYA Mid Loin</h4>
                         <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">vekt: 350g</p>
                                 <p class="card-text fw-bold">pris: 299kr</p>
                                 <p  class="card-text true"> På lager <i class="bi bi-check"></i></p>
-                            <router-link to="">
-                                <input type="button" value="Back Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
+                            <router-link to="/MidLoin350gNor">
+                                <input type="button" value="Mid Loin" class="btn btn-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </div>

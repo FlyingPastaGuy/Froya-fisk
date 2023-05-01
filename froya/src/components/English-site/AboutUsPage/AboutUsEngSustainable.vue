@@ -1,5 +1,5 @@
 <template>
-
+<main-eng-navbar></main-eng-navbar>
     <div>
         <article class="container">
             <div class="row">
@@ -48,5 +48,16 @@
             </div>
         </article>
     </div>
-
+<eng-footer></eng-footer>
 </template>
+
+<script>
+import MainEngNavbar from '@/components/shared/MainEngNavbar.vue'
+import EngFooter from '@/components/shared/EngFooter.vue'
+export default {
+  components: { MainEngNavbar, EngFooter },
+    setup() {
+        
+    },
+}
+</script>

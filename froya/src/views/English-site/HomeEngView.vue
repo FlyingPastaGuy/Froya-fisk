@@ -138,7 +138,7 @@
             <img src="@/assets/Images/Froya-til-fest-forrett-med-gin-marinert-froyalaks.jpg" alt="" class="card-img-top align-self-center cardImg">
             <div class="card-body " style="background-color: white;">
                 <p class="card-text text-dark text-wrap" >Gin-marinated Frøya salmon Marinated salmon with cucumber, gin and currants</p>
-                <router-link to="">
+                <router-link to="/GinMarinatedSalmonEng">
                     <input type="button" value="see recipe" class="btn btn-outline-dark" style="border-radius: 0%;">
                 </router-link>
             </div>
@@ -150,7 +150,7 @@
             <img src="@/assets/Images/Laksparmesancrust.webp" alt="" class="card-img-top align-self-center cardImg">
             <div class="card-body" style="background-color: white;">
                 <p class="card-text text-dark text-wrap">Oven-baked salmon with herbs & garlic crust, green mashed potatoes & herb oil</p>
-                <router-link to="">
+                <router-link to="/SalmonWithGarlicAndParmesanCrustEng">
                     <input type="button" value="see recipe" class="btn btn-outline-dark" style="border-radius: 0%;">
                 </router-link>
             </div>
@@ -162,7 +162,7 @@
             <img src="@/assets/Images/Froya-til-fest-hovedrett-med-laks-og-champagne-beurre-blanc.jpg" alt="" class="card-img-top align-self-center cardImg">
             <div class="card-body" style="background-color: white;">
                 <p class="card-text text-dark text-wrap">Pan-fried salmon with champagne beurre blanc, asparagus beans and Hasselbäck potatoes</p>
-                <router-link to="">
+                <router-link to="/SalmonAndChampagneBeurreBlancEng">
                     <input type="button" value="see recipe" class="btn btn-outline-dark" style="border-radius: 0%;">
                 </router-link>
             </div>

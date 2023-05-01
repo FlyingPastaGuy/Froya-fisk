@@ -1,4 +1,5 @@
 <template>
+<main-eng-navbar></main-eng-navbar>
     <div class="bg-white py-5">
         <article class="container ">
             <div class="row py-5">
@@ -34,7 +35,7 @@
                         <input type="text" :placeholder="{amount}" class="length text-center text-outline-secondary" v-model="amount">
                         <input type="button" value="+" class="length btn btn-outline-secondary rounded-0" @click="addProduct()">
                     </div>
-                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5" value="ADD TO CART"  data-bs-toggle="modal" data-bs-target="#BackLoin350GModal">
+                    <input type="button" class="btn btn-dark rounded-0 mt-5 my-5 py-3 px-5" value="ADD TO CART"  data-bs-toggle="modal" data-bs-target="#BackLoin350GModal">
                 </div>
             </div>
         </article>
@@ -66,14 +67,17 @@
         </div>
         <product-carusel-eng></product-carusel-eng>
     </div>
+<eng-footer></eng-footer>
 </template>
 
 <script>
 
 import { ref } from 'vue'
 import ProductCaruselEng from '../ProductCaruselEng.vue'
+import MainEngNavbar from '@/components/shared/MainEngNavbar.vue'
+import EngFooter from '@/components/shared/EngFooter.vue'
 export default {
-  components: {ProductCaruselEng  },
+  components: {ProductCaruselEng, MainEngNavbar, EngFooter  },
     setup() {
         
         let amount = ref(1)

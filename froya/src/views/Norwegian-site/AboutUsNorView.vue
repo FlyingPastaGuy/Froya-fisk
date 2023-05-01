@@ -41,7 +41,7 @@
                                 bærekraft
                             </h4>
                             <router-link to="/AboutUsNorSustainable">
-                                <input type="button" value="les mer" class="btn btn-outline-dark" style="border-radius: 0%;">
+                                <input type="button" value="LES MER" class="btn btn-outline-dark" style="border-radius: 0%;">
                             </router-link>
                         </div>
                     </article>
