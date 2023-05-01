@@ -4,7 +4,7 @@
         <article class="container">
             <div class="row py-5">
                 <div class="col-12 col-md-5">
-                    <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" alt="" srcset="" class="img-fluid border border-0">
+                    <img src="@/assets/Images/Halv-Mid-loin_1N.png" alt="" srcset="" class="img-fluid border border-0">
                     <p>
                         Dette stykket er å foretrekke til lett
                         varmebehandling;

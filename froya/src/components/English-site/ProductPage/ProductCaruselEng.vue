@@ -45,7 +45,7 @@
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
                         <h4 class="mb-0 p-3 bg-black">FRØYA Mid Loin</h4>
-                        <img src="@/assets/Images/Froya-Halv-Back-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
+                        <img src="@/assets/Images/Halv-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">weightweight: 150g</p>
                                 <p class="card-text fw-bold">price: 199kr </p>
@@ -126,7 +126,7 @@
                     <article class="col-6 col-md-2 col-lg-3">
                     <div class="card mt-4 text-wrap">
                         <h4 class="mb-0 p-3 bg-black">FRØYA Mid Loin</h4>
-                        <img src="@/assets/Images/Froya-Hel-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
+                        <img src="@/assets/Images/Halv-Mid-loin_1N.png" class="card-img-top align-self-start cardImg rounded-0 "  alt="">
                         <div class="card-body text-center font-monospace">
                                 <p class="card-text fw-bold">weight: 150g</p>
                                 <p class="card-text fw-bold">price: 199kr</p>

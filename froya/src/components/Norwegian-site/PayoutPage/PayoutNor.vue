@@ -63,7 +63,7 @@ export default {
     setup() {
         let producktArray = reactive([
             {   
-                ProductImg: '',
+                ProductImg: 'Halv-Mid-loin_1N.png',
                 ProductPrice: 199,
                 ProductAmount: 2,
                 ProductSubtotal: 199*2

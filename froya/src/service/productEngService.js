@@ -22,7 +22,7 @@ const productEngService = (function(){
         },
         {
             ProductName: "mid Loin",
-            ProductImage: "Froya-Hel-Mid-loin_1N.png",
+            ProductImage: "Halv-Mid-loin_1N.png",
             ProductWeight: 150,
             ProductPrice: 199,
             ProductAmount:1,
