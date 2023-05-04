@@ -1,7 +1,7 @@
 <template>
 <main-nor-navbar></main-nor-navbar>
     <div>
-        <article class="container">
+        <article class="container mt-5">
             <div class="row">
                 <div class="col-12 col-md me-5 mb-5">
                     <img src="@/assets/Images/laks-ferdig-pa-band.jpg" alt="" srcset="" class="img-fluid border border-0">
