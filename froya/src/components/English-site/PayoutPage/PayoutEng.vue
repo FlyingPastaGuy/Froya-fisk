@@ -27,7 +27,7 @@
                                 <td>
                                     <div class="input-group mb-3 justify-content-center">
                                         <input type="button" value="-" class="length btn btn-outline-secondary rounded-0 w-25 " @click="reduseproduct(i)">
-                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text text-outline-secondary w-25">
+                                        <input type="text" :placeholder="product.ProductAmount" class="length text-center text text-outline-secondary w-25" aria-label="Disabled input example" disabled readonly>
                                         <input type="button" value="+" class="length btn btn-outline-secondary rounded-0 w-25" @click="addproduct(i)">
                                     </div>
                                     
