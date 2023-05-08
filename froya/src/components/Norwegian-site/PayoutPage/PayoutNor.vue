@@ -15,7 +15,7 @@
                                 <th> 
                                     <p>Antall</p> 
                                 </th>
-                                <th > 
+                                <th> 
                                     <p>Subtotal</p> 
                                 </th>
                             </tr>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col mt-5">
                     <div class="w-50">
-                        <h3>Din ordre oppsumert</h3>
+                        <h3>Din ordre oppsummert</h3>
                         <div>
                             <p>total</p>
                             <p>{{productTotal}}</p>
@@ -195,6 +195,7 @@ p,h1,h2,h3{
 
 .bg-color{
     background-color: #dadada;
+    width: 200rem;
 }
 
 .btn{
