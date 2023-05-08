@@ -195,7 +195,6 @@ p,h1,h2,h3{
 
 .bg-color{
     background-color: #dadada;
-    width: 200rem;
 }
 
 .btn{
