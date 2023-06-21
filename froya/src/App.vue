@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style>
-
+/*
 @font-face {
   font-family: GothemLight;
   src:  url(./assets/fonts/Gotham-OTF/Gotham-Light.otf) ;
@@ -44,5 +44,19 @@ p{
 .btn{
   font-family: GothemLight;
   font-size: 1.25rem;
+}*/
+body{
+    background-color: #151517;
 }
+h1,h2,h3,h4,h5{
+  color:white;
+}
+p{
+  color: white;
+}
+
+.btn{
+  font-size: 1.25rem;
+}
+
 </style>
