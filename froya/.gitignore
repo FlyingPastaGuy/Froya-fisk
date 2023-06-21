@@ -3,6 +3,7 @@ node_modules
 /dist
 
 /src/assets/fonts/
+/src/assets/video/Skjermopptak-2023-03-10-kl.-13.34.24.mov
 
 # local env files
 .env.local
